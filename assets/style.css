@@ -6,15 +6,34 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
 }
+
+/* General Styles */
+
+
 
 /* Header */
 header {
     background-color: #222222;
     color:whitesmoke;
+
 } 
 
-#logo {
-    height: 50%;
-    width: 50%;
+#navigation_bar {
+    display: flex;
+    height: 18vh;
+    width: auto ;
+}
+
+#menu  {
+    flex-direction: column;
+}
+
+.img-reponsive {
+    height: auto;
+    width: 100%
+    margin-left: 30px;
+    object-fit: cover;
+    padding: auto;
 }
