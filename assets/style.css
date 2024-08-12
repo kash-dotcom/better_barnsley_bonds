@@ -23,7 +23,7 @@ header {
     font-size: medium;
     font-weight: 600;
     width: auto;
-    height: 20vh;
+    height: 18vh;
 } 
 
 /* Navigation bar - targeting the logo */
@@ -35,9 +35,11 @@ header {
 }
 
 img {
-    height: 100%;
+    height: 90%;
     width: auto;
     position: relative;
+    top: 5%;
+    left: 5%;
     object-fit: fill;
     padding: auto;  
 } 
@@ -62,8 +64,9 @@ i {
 
 .fa-bars {
     position: absolute;
-    top: 16px;
-    right:20px;
+    top: 20px;
+    right: 40px;
+    font-size: xx-large;
     z-index: 10;
 }
 
@@ -136,10 +139,9 @@ input:checked ~ .slide {
       transform: translateX(0); 
 
 }
-
+/* Make main element take up any surplus space to push footer down */
 main {
     background-color: lightgray;
-    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px; 
 }
