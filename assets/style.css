@@ -22,6 +22,7 @@ header {
     color:whitesmoke;
     font-size: medium;
     font-weight: 600;
+    width: 412px;
 } 
 
 /* Navigation bar - targeting the logo */
@@ -64,6 +65,11 @@ li {
 
 i {
     color: whitesmoke;
+    padding: 5px;
+}
+
+.fa-bars:hover {
+    background-color: #5a3859;
 }
 
 img li {
@@ -73,12 +79,14 @@ img li {
 /*slide bar*/
 .slide {
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 160px;
     position: absolute;
     right: 0;
     background-color: #222222;
     transition: 0.5s ease;
+    transform: translateX(0);
 }
 
 h2 {
@@ -102,18 +110,28 @@ ul li:hover a {
     background-color: #5a3859;
 }
 
-/*toggle menu*/
+/*toggle menu
 
 input {
     display: none;
     visibility: hidden;
     -webkit-appearance: none;
 }
+    */
 
-input h2 {
-    flex-direction: row;
     
+input:not(:checked) ~ .slide {
+    transform: translateX(160%);
 }
+input h2 {
+    flex-direction: row;  
+}
+
+
+#menu-toggle:checked~nav {
+  display: block;
+}
+
 /*
 .toggle {
     position: absolute;
