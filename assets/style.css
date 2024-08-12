@@ -69,6 +69,10 @@ img li {
     display: inline-block;
 }
 
+a {
+    color: whitesmoke;
+}
+
 /*toggle menu */
 
 input {
@@ -107,7 +111,7 @@ ul li a i {
     text-align: center;
 }
 
-ul li:hover a {
+ul li a:hover {
     background-color: #5a3859;
 }
 
@@ -135,10 +139,35 @@ main {
 
 /*footer*/
 
-footer {
+#legal-social {
+    text-align: center;
+    padding: 20px 0;
+    justify-content: space-evenly;
     background-color: #222222;
+    display: flex;
+    color: whitesmoke;
+    
 }
 
+footer ~ li {
+    flex-direction: row;
+    
+    
+
+}
+
+.legal {
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.legal:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: large;
+    background-color: #222222;
+}
 /* --creation of toggle menu --
 .toggle {
     position: absolute;
