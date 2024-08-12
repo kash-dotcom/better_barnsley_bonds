@@ -10,30 +10,146 @@
 }
 
 /* General Styles */
-
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Header */
 header {
     background-color: #222222;
     color:whitesmoke;
-
+    font-size: medium;
+    font-weight: 600;
 } 
 
-#navigation_bar {
+/* Navigation bar - targeting the logo */
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     height: 18vh;
     width: auto ;
 }
 
-#menu  {
-    flex-direction: column;
+#menu {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.img-reponsive {
+img {
     height: auto;
-    width: 100%
-    margin-left: 30px;
-    object-fit: cover;
-    padding: auto;
+    width: 60%;
+    position: relative;
+    left:15px
+    object-fit: contain;
+    padding: auto;  
+} 
+
+
+/* Navigation bar - menu list*/
+
+ul {
+    list-style: none;
+    padding-left: 16px;
 }
+
+li {
+    padding-left: 10px;  
+    padding-bottom: 25px;
+}
+
+i {
+    color: whitesmoke;
+}
+
+img li {
+    display: inline-block;
+}
+
+/*slide bar*/
+.slide {
+    height: 100%;
+    width: 180px;
+    position: absolute;
+    right: 0;
+    background-color: #222222;
+    transition: 0.5s ease;
+}
+
+h2 {
+    pointer-events: none;
+    text-align: left;
+    padding: 10px 10px 20px 15px;
+}
+
+ul li a {
+    padding: 5px 0;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+
+ul li a i {
+    width: 20px;
+    text-align: center;
+}
+
+/*toggle menu*/
+
+input {
+    display: none;
+    visibility: hidden;
+    -webkit-appearance: none;
+}
+
+/*
+.toggle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    right: 15px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #222222;
+    box-shadow: 0 0 10px rgba(0, 0 , 0, 3);
+}
+
+/* --creation of toggle menu 
+.toggle .common {
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    z-index: 5;
+}
+
+.toggle .top-line {
+    top: 30%;
+    left: 50%;
+    transform: (-50%, -50%);
+/*
+#menu {
+    top: 40px;
+    right: 15px;
+    z-index: 2;
+}
+
+
+#menu .toggle {
+    position: absolute;
+}
+*/
+
+/* Will need later for media queries
+li {
+    display: inline;
+    justify-content: space-between;
+}*/
