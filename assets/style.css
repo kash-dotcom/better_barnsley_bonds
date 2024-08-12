@@ -23,23 +23,22 @@ header {
     font-size: medium;
     font-weight: 600;
     width: auto;
-    height: 10vh
+    height: 20vh;
 } 
 
 /* Navigation bar - targeting the logo */
 .navbar {
     padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    height: 18vh;
+    padding-right: 15px;;
+    height: 20vh;
     width: 30%;
 }
 
 img {
-    height: 60%;
+    height: 100%;
     width: auto;
     position: relative;
-    object-fit: contain;
+    object-fit: fill;
     padding: auto;  
 } 
 
@@ -61,6 +60,13 @@ i {
     padding: 5px;
 }
 
+.fa-bars {
+    position: absolute;
+    top: 16px;
+    right:20px;
+    z-index: 10;
+}
+
 .fa-bars:hover {
     background-color: #5a3859;
 }
@@ -78,20 +84,30 @@ a {
 input {
     display: none;
     visibility: hidden;
-    -webkit-appearance: none;
+   
 }
 
-/*slide bar*/
+input h2 {
+    flex-direction: row;  
+}
+
+#menu-toggle:checked~nav {
+  display: block;
+}
+
+/*slide bar
 .slide {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 160px;
     position: absolute;
+    top: 0;
     right: 0;
     background-color: #222222;
     transition: 0.5s ease;
-    transform: translateX(165px);
+    transform-origin: right;
+    transform: translateX(250px);
     z-index: 0;
 }
 
@@ -115,20 +131,10 @@ ul li a i {
 ul li a:hover {
     background-color: #5a3859;
 }
-
-
-
     
 input:checked ~ .slide {
       transform: translateX(0); 
 
-}
-input h2 {
-    flex-direction: row;  
-}
-
-#menu-toggle:checked~nav {
-  display: block;
 }
 
 main {
@@ -214,3 +220,7 @@ li {
     display: inline;
     justify-content: space-between;
 }*/
+
+@media screen {
+    
+}
