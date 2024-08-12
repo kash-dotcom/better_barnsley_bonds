@@ -133,6 +133,12 @@ main {
     margin-top: 47px; 
 }
 
+/*footer*/
+
+footer {
+    background-color: #222222;
+}
+
 /* --creation of toggle menu --
 .toggle {
     position: absolute;
