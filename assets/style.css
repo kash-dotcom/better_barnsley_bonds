@@ -48,7 +48,7 @@ img {
 /* Navigation bar - menu list*/
 
 ul {
-    list-style: none;
+    list-style-type: none;
     padding-left: 16px;
 }
 
@@ -87,7 +87,6 @@ a {
 input {
     display: none;
     visibility: hidden;
-   
 }
 
 input h2 {
@@ -98,25 +97,27 @@ input h2 {
   display: block;
 }
 
-/*slide bar
+/*slide bar*/
 .slide {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 160px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2%;
+    right: 8%;
     background-color: #222222;
     transition: 0.5s ease;
     transform-origin: right;
-    transform: translateX(250px);
+    transform: translateX(0);
     z-index: 0;
 }
 
-h2 {
+.slide ~ h2 {
     pointer-events: none;
     padding: 10px 10px 20px 15px;
+    position: relative;
+    top: 25%;
 }
 
 ul li a {
@@ -147,33 +148,57 @@ main {
 }
 
 /*footer*/
+.b-container {
+    background-color: #222222;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+}
+.footer {
+    display: flex;
+}
 
-#legal-social {
+.footer_menu {
+    line-height: 21.6px;
+    font-size: 16px;
+    display: block;
+}
+
+.legal {
     text-align: center;
     padding: 20px 0;
     justify-content: space-evenly;
-    background-color: #222222;
-    display: flex;
+    flex-direction: row;
     color: whitesmoke;
     flex-wrap: wrap;
     position: relative;
+}
+
+.footer-legal-socials {
+    display: inline;
 }
 
 footer ~ li {
     flex-direction: row;   
     z-index: 7;
 }
-
-.legal {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .legal:hover {
     text-decoration: underline;
     color: whitesmoke;
     font-size: large;
     background-color: #222222;
+}
+
+.footer_menu p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#footer {
+    display: flex;
+    background-color: #222222;
+    text-wrap: wrap;
+    display: inline;
 }
 /* --creation of toggle menu --
 .toggle {
