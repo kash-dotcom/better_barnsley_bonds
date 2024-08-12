@@ -92,6 +92,7 @@ input {
     background-color: #222222;
     transition: 0.5s ease;
     transform: translateX(165px);
+    z-index: 0;
 }
 
 h2 {
@@ -146,18 +147,16 @@ main {
     background-color: #222222;
     display: flex;
     color: whitesmoke;
-    
+    flex-wrap: wrap;
+    position: relative;
 }
 
 footer ~ li {
-    flex-direction: row;
-    
-    
-
+    flex-direction: row;   
+    z-index: 7;
 }
 
 .legal {
-    
     flex-direction: row;
     flex-wrap: wrap;
 }
