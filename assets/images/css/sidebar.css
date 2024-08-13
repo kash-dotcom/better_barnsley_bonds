@@ -20,7 +20,8 @@ body {
     width: 180px;
     height: 100%;
     background-color: #222222; 
-    transition: 0.5 ease;
+    transition: 0.5s ease;
+    transform: translateX(-180px);
 }  
 
 #slide h2 {
@@ -49,6 +50,11 @@ body {
     text-transform: capitalize;
     text-decoration: none;
     transition: 0.2s ease-out;
+}
+
+#slide ul li:hover a {
+    color: whitesmoke;
+    background-color: #5a3859;
 }
 
 #slide ul li a i {
@@ -93,6 +99,7 @@ label input {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 00.5s);
 }
 
 .toggle .bottom_line {
@@ -116,4 +123,8 @@ input:checked ~ .toggle .bottom_line {
 input:checked ~ .toggle .middle_line {
     opacity: 0;
     transform: translateX(20px);
+}
+
+input:checked ~ #slide {
+    transform: translateX(0);
 }
