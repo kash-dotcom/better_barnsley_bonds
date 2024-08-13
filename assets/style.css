@@ -34,12 +34,12 @@ header {
     width: 30%;
 }
 
-img {
+#bbblogo {
     height: 90%;
     width: auto;
     position: relative;
     top: 5%;
-    left: 5%;
+    left: 1%;
     object-fit: fill;
     padding: auto;  
 } 
@@ -74,7 +74,7 @@ i {
     background-color: #5a3859;
 }
 
-img li {
+#bbblogo li {
     display: inline-block;
 }
 
@@ -97,7 +97,7 @@ input h2 {
   display: block;
 }
 
-/*slide bar*/
+/*slide bar
 .slide {
     display: flex;
     flex-direction: column;
@@ -148,40 +148,59 @@ main {
 }
 
 /*footer*/
-.b-container {
+
+/*
+-- 
+    #footer
+    .footer menu (nav) -- .footer-legal-socials
+    .footer-legal
+    .footer-socials
+
+    .container-logos
+    .copyright (*)
+    .footer-b2030-logo(*)
+    .footer-bmbc-logo (*) 
+*/
+
+#footer {
     background-color: #222222;
     color: whitesmoke;
     text-align: center;
+    text-wrap: wrap;
     display: flex;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
 }
-.footer {
-    display: flex;
-}
+
 
 .footer_menu {
-    line-height: 21.6px;
+    content: none;
+
+ /*   line-height: 21.6px;
     font-size: 16px;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    */
 }
 
-.legal {
-    text-align: center;
+/* First container - legal and socials rows*/
+.footer-legal {
+    padding: 20px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: inline;
+    position: relative;    
+}
+.footer-socials {
     padding: 20px 0;
     justify-content: space-evenly;
     flex-direction: row;
-    color: whitesmoke;
     flex-wrap: wrap;
-    position: relative;
+    position: relative;    
 }
 
-.footer-legal-socials {
-    display: inline;
-}
-
-footer ~ li {
-    flex-direction: row;   
-    z-index: 7;
-}
 .legal:hover {
     text-decoration: underline;
     color: whitesmoke;
@@ -189,17 +208,33 @@ footer ~ li {
     background-color: #222222;
 }
 
-.footer_menu p {
-    text-align: center;
-    color: whitesmoke;
+/* Second container - logos & copywrigtht*/
+.container-logo {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;;
+    height: 20vh;
+    width: 30%;
 }
 
-#footer {
-    display: flex;
-    background-color: #222222;
-    text-wrap: wrap;
-    display: inline;
+
+.footer-b2030-logo {
+padding-left: 15px;
+padding-right: 15px;;
+height: 20vh;
+width: 30%;
 }
+
+#barnsley-2030-logo {
+    height: 5%;
+    width: auto;
+    position: relative;
+    top: 5%;
+    left: 1%;
+    object-fit: fill;
+    padding: auto;  
+} 
+
 /* --creation of toggle menu --
 .toggle {
     position: absolute;
