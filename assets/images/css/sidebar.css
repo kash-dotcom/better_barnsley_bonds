@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans',sans-serif;
-    font-size: 16px;
+    
 }
 
 body {
@@ -26,8 +26,8 @@ body {
 #slide h2 {
     color: whitesmoke;
     font-weight: 800;
-    text-align: right;
-    padding: 10px 0;
+    text-align: left;
+    padding: 20px 0 0 60px;
     pointer-events: none;
     border-bottom: 1px solid white;
     padding-bottom: 10px;
@@ -54,4 +54,49 @@ body {
 #slide ul li a i {
     width: 30px;
     text-align: center;
+}
+
+label input {
+    display: none;
+    visibility: hidden;
+}
+
+.toggle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 15px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #2c2b2c;
+    box-shadow: 0 0 10px rgba(245,245,245,0.3);
+}
+
+.toggle .common {
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.toggle .top_line {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toggle .middle_line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toggle .bottom_line {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
