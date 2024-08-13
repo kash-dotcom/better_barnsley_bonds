@@ -153,8 +153,10 @@ main {
 footer {
     background-color: #222222;
     color: whitesmoke;
-    padding-top: 50px;
-    font-size: 16px;
+    height: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-small;
 }
 
 .container-footer {
@@ -165,24 +167,22 @@ footer {
     flex-direction: column;
 }
 
-.footer-content {
-   
-}
-.footer-content p {
-    text-align: center;
-}
 
 .legal {
     justify-content: center;
     text-wrap: wrap;
     display: flex;
-    overflow: auto;
     height: 100%;
     width: 100%;
     order: 1;
+    text-decoration: none;
 }
 
-.legal:hover {
+.legal li {
+    padding: 2px;
+}
+
+.legal li:hover {
     text-decoration: underline;
     color: whitesmoke;
     font-size: large;
@@ -198,37 +198,56 @@ footer {
     order: 2;
 }
 
+.socials li {
+    padding: 10px;
+}
+
 .copyright {
     text-align: center;
+    padding: 2px;
     order: 4;
 }
 
+/* Footer Logos */
 .footer-logos {
     justify-content: space-between;
-    width: 5px;
-    height: 2px;
-    align-items: center;
-    order: 3;
+    width: 100%;
+    max-height: 6%;
     display: inline-block;
     padding-left: 15px;
-    padding-right: 15px;;
-    height: 20vh;
-    width: 30%;
+    padding-right: 15px;
+    position: relative; 
+    order: 5;
+ 
+}
+.footer-content p {
+    text-align: center;
+    display: inline;
 }
 
 #bmbc_logo {
     padding-left: 15px;
-    padding-right: 15px;;
+    padding-right: 15px;
     object-fit: contain;
-    max-height: 50%;
+    max-height: 6%;
+    max-width: auto;
+    position: realtive;
 }
 
 #barnsley-2030-logo {
-    max-height: 50%;
-    max-width; auto;
+    max-height: 6%;
+    max-width: auto;
     object-fit: contain;
-    padding: auto;  
+    padding-left: 15px;
+    padding-right: 15px; 
+    position: realtive;
 } 
+
+.copyright .footer-logos {
+    display: flex;
+    flex-direction: column;
+}
+/* Logos on either side of the screen */
 
 
 
@@ -365,8 +384,4 @@ footer {
 li {
     display: inline;
     justify-content: space-between;
-}*/
-
-@media screen {
-    
-} 
+*/ 
