@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans',sans-serif;
+    background-color: #222222;
 }
 
 /* General Styles */
@@ -153,6 +154,7 @@ footer {
     background-color: #222222;
     color: whitesmoke;
     padding-top: 50px;
+    font-size: 16px;
 }
 
 .container-footer {
@@ -160,7 +162,6 @@ footer {
     margin: auto;
     display: flex;
     justify-content: center;
-    font-size: large;
     flex-direction: column;
 }
 
@@ -168,40 +169,8 @@ footer {
    
 }
 .footer-content p {
-    
     text-align: center;
-
 }
-
-.footer-logos {
-    justify-content: space-between;
-    width: 5px;
-    height: 2px;
-    align-items: center;
-    order: 3;
-}
-
-/*
-#barnsley-2030-logo{
-    bottom:10px;
-    left: 10px; 
-}
-
-#bmbc_logo {
-    bottom: 10px;
-    right: 10px;
-}
-
-
-.footer-content ul {
-    flex-direction: column;
-    position: relative;
-    justify-content: space-between;
-    width: 50%;
-    height: auto;
-    align-items: center;
-}
-    */
 
 .legal {
     justify-content: center;
@@ -234,9 +203,56 @@ footer {
     order: 4;
 }
 
+.footer-logos {
+    justify-content: space-between;
+    width: 5px;
+    height: 2px;
+    align-items: center;
+    order: 3;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;;
+    height: 20vh;
+    width: 30%;
+}
+
+#bmbc_logo {
+    padding-left: 15px;
+    padding-right: 15px;;
+    object-fit: contain;
+    max-height: 50%;
+}
+
+#barnsley-2030-logo {
+    max-height: 50%;
+    max-width; auto;
+    object-fit: contain;
+    padding: auto;  
+} 
 
 
 
+/*
+#barnsley-2030-logo{
+    bottom:10px;
+    left: 10px; 
+}
+
+#bmbc_logo {
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.footer-content ul {
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+    */
 
 
 
@@ -301,31 +317,7 @@ footer {
 }
 
 /* Second container - logos & copywrigtht*/
-.container-logo {
-    display: flex;
-    padding-left: 15px;
-    padding-right: 15px;;
-    height: 20vh;
-    width: 30%;
-}
 
-
-.footer-b2030-logo {
-padding-left: 15px;
-padding-right: 15px;;
-height: 20vh;
-width: 30%;
-}
-
-#barnsley-2030-logo {
-    height: 5%;
-    width: auto;
-    position: relative;
-    top: 5%;
-    left: 1%;
-    object-fit: fill;
-    padding: auto;  
-} 
 */
 /* --creation of toggle menu --
 .toggle {
