@@ -1,0 +1,57 @@
+/*font -Open Sans*/ 
+@import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
+@import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+#slide {
+    position: absolute;
+    width: 180px;
+    height: 100%;
+    background-color: #222222; 
+    transition: 0.5 ease;
+}  
+
+#slide h2 {
+    color: whitesmoke;
+    font-weight: 800;
+    text-align: right;
+    padding: 10px 0;
+    pointer-events: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+#slide li {
+    list-style: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+#slide ul li a {
+    color: whitesmoke;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+#slide ul li a i {
+    width: 30px;
+    text-align: center;
+}
