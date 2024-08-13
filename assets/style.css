@@ -149,6 +149,98 @@ main {
 
 /*footer*/
 
+footer {
+    background-color: #222222;
+    color: whitesmoke;
+    padding-top: 50px;
+}
+
+.container-footer {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    flex-direction: column;
+}
+
+.footer-content {
+   
+}
+.footer-content p {
+    
+    text-align: center;
+
+}
+
+.footer-logos {
+    justify-content: space-between;
+    width: 5px;
+    height: 2px;
+    align-items: center;
+    order: 3;
+}
+
+/*
+#barnsley-2030-logo{
+    bottom:10px;
+    left: 10px; 
+}
+
+#bmbc_logo {
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.footer-content ul {
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+    */
+
+.legal {
+    justify-content: center;
+    text-wrap: wrap;
+    display: flex;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    order: 1;
+}
+
+.legal:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: large;
+    background-color: #5a3859;
+}
+
+.socials {
+    justify-content: center;
+    display: flex;
+    text-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    order: 2;
+}
+
+.copyright {
+    text-align: center;
+    order: 4;
+}
+
+
+
+
+
+
+
+
 /*
 -- 
     #footer
@@ -160,7 +252,7 @@ main {
     .copyright (*)
     .footer-b2030-logo(*)
     .footer-bmbc-logo (*) 
-*/
+
 
 #footer {
     background-color: #222222;
@@ -183,9 +275,9 @@ main {
     flex-direction: row;
     text-align: center;
     */
-}
 
-/* First container - legal and socials rows*/
+
+/* First container - legal and socials rows
 .footer-legal {
     padding: 20px 0;
     justify-content: space-evenly;
@@ -234,7 +326,7 @@ width: 30%;
     object-fit: fill;
     padding: auto;  
 } 
-
+*/
 /* --creation of toggle menu --
 .toggle {
     position: absolute;
@@ -285,4 +377,4 @@ li {
 
 @media screen {
     
-}
+} 
