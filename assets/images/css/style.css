@@ -27,7 +27,7 @@ header {
     height: 18vh;
 } 
 
-/*side bar left*/
+/*side bar left
 #sidebar {
     position: fixed;
     width: 30%;
@@ -53,13 +53,14 @@ header {
 }
 
 #bbblogo {
-    height: 90%;
+    height: 115%;
     width: auto;
     position: relative;
-    top: 5%;
-    left: 1%;
+    top: -1%;
+    left: 15%;
     object-fit: fill;
     padding: auto;  
+    transform: translateX(0);
 } 
 
 /*slide bar */
@@ -177,6 +178,10 @@ input:checked ~ #slide {
     transform: translateX(0);
 }
 
+input:checked ~ a #bbblogo {
+    transform: translateX(151px);
+}
+
 /* Make main element take up any surplus space to push footer down */
 main {
     background-color: lightgray;
@@ -283,6 +288,44 @@ footer {
     display: flex;
     flex-direction: column;
 }
+/*Mobile M - 375px*/
+@media screen (max-width: 375px) {
+    
+
+}
+
+/*Mobile L - 425px*/
+@media screen (max-width: 425px) {
+    
+
+}
+
+
+/*Tablet - 768px*/
+@media screen (max-width: 768px) {
+    
+
+}
+
+/*Laptop - 1024px*/
+@media screen (max-width: 1024px) {
+    
+
+}
+/*Large laptop - 1440px*/
+@media screen (max-width: 1440px) {
+    
+
+}
+
+
+/*4K - 2560px*/
+@media screen (max-width: 2560px) {
+    
+
+}
+
+
 /* Logos on either side of the screen */
 
 
