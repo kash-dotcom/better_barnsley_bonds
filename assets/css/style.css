@@ -336,9 +336,7 @@ li:last-child {
 }
 
 
-
-
-/* Contact us page */
+/* Contact us page 
 
 .hero-image {
     height: auto;
@@ -347,7 +345,43 @@ li:last-child {
     background-color: lightgray;
 }*/
 
+#contact-us {
+    margin: 60px;
+    height: max-content;
+    width: 200px;
+}
 
+#contact-form {
+    height: 600px;
+    width: 150px;
+    background-color: purple;
+    box-shadow:  rgba(245,245,245,0.2);
+}
+
+#contact-form form{
+    height: auto;
+    width: auto;
+}
+
+#contact-form input {
+    box-sizing: border-box;
+    border-color: whitesmoke;
+    border-radius: 3px;
+}
+
+#contact-form button {
+    display: block;
+    position: relative;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: #5a3859;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: medium;
+    box-shadow: 0 0 8px rgba(245,245,245,0.2);
+    ;
+}
 
 
 

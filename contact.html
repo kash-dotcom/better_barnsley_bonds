@@ -41,44 +41,47 @@
     </header>
 
     <main>
-        <section id="background-image">
+        <section id="contact-us">
             <div class="hero-image">
-            </div>
-            <h2>Contact Us</h2>
-            <p>Let's get started!</p>
-            <form action="https://formdump.codeinstitute.net" method="POST">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Full name" required>
-                <br>
-                <label for="phone">Phone</label>
-                <input type="number" name="phone" id="phone" placeholder="Phone or mobile number" required>
-                <br>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-                <br>
-                <input type="text" name="postcode" id="postcode"
-                    placeholder="Enter your full postcode where the project is taking place" required>
-                <br>
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="10" placeholder="Write your message here..."
-                    required></textarea>
-                <br>
-                
-                <fieldset>
-                <legend>How should we contact you?</legend>
-                <div>
-                    <label for="preferred-phone">by phone</label>
-                    <input type="checkbox" name="preferred-communication" id="preferred-phone" required>
-                
-                    <label for="preferred-email">by email</label>
-                    <input type="checkbox" name="preferred-communication" id="preferred-email">
+
                 </div>
-                </fieldset>
-
-                <button type="button" id="send-btn">Send</button>
-            </form>
-
-
+                <div class="contact-border">
+                        <h2>Contact Us</h2>
+                        <p>Let's get started!</p>
+                    <div id="contact-form">
+                        <form action="https://formdump.codeinstitute.net" method="POST">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Full name" required>
+                            <br>
+                            <label for="phone">Phone</label>
+                            <input type="number" name="phone" id="phone" placeholder="Phone or mobile number" required>
+                            <br>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                            <br>
+                            <input type="text" name="postcode" id="postcode"
+                                placeholder="Enter your full postcode where the project is taking place" required>
+                            <br>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="10" placeholder="Write your message here..."
+                                required></textarea>
+                            <br>
+                            
+                            <fieldset>
+                            <legend>How should we contact you?</legend>
+                            <div>
+                                <label for="preferred-phone">by phone</label>
+                                <input type="checkbox" name="preferred-communication" id="preferred-phone" required>
+                            
+                                <label for="preferred-email">by email</label>
+                                <input type="checkbox" name="preferred-communication" id="preferred-email">
+                            </div>
+                            </fieldset>
+                            <button type="button" id="send-btn">Send</button>
+                        </form>
+                    </div>
+                </div>   
+        </div>
         </section>
 
     </main>
