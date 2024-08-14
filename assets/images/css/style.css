@@ -10,6 +10,7 @@
     background-color: #222222;
     color: whitesmoke;
     text-decoration: none;
+    list-style-type: none;
 }
 
 /* General Styles */
@@ -18,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     color: whitesmoke;
+    
 }
 
 /* Header */
@@ -72,10 +74,12 @@ header {
 #slide {
     position: absolute;
     width: 180px;
-    height: 100%;
+    height: 200px;
     background-color: #222222; 
     transition: 0.5s ease;
     transform: translateX(-180px);
+    border-radius: 10px;
+    
 }  
 
 #slide h2 {
@@ -196,18 +200,24 @@ main {
 
 /*footer*/
 
-footer {
-    background-color: #222222;
-    color: whitesmoke;
-    list-style-type: none;
-    text-decoration: none;
-    height: 10vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: x-small;
-    justify-content: space-between;
+.footer-container {
+    background-color: #222222; 
+    padding-bottom: 4rem;
 }
 
+.footer {
+    width: 80%;
+    height: 12vh;
+    background-color: #222222; 
+    color: whitesmoke;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 1rem;
+    margin: 0  auto;
+}
 #bmbc_logo {
     padding-left: 15px;
     padding-right: 15px;
@@ -217,8 +227,10 @@ footer {
     position: realtive;
 }
 
+
+
 #barnsley-2030-logo {
-    max-height: 6%;
+    max-height: 100%;
     max-width: auto;
     object-fit: contain;
     padding-left: 15px;
@@ -226,7 +238,6 @@ footer {
     position: realtive;
 } 
 
-/*
 .container-footer {
     width: 100vw;
     margin: auto;
@@ -308,6 +319,34 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+.footer-content-barnsley-council{
+    display: ;
+}
+.footer-content-barnsley-council a h2 ul{
+    align-items: start;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Mobile M - 375px*/
 @media screen (max-width: 375px) {
     
