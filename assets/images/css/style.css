@@ -8,6 +8,8 @@
     box-sizing: border-box;
     font-family: 'Open Sans',sans-serif;
     background-color: #222222;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 /* General Styles */
@@ -193,14 +195,12 @@ main {
 }
 
 /*footer*/
-footer {
-    color: whitesmoke;
-    list-style-type: none;
-    text-decoration: none;
-}
+
 footer {
     background-color: #222222;
     color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
     height: 10vh;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -208,6 +208,25 @@ footer {
     justify-content: space-between;
 }
 
+#bmbc_logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    object-fit: contain;
+    max-height: 100%;
+    max-width: auto;
+    position: realtive;
+}
+
+#barnsley-2030-logo {
+    max-height: 6%;
+    max-width: auto;
+    object-fit: contain;
+    padding-left: 15px;
+    padding-right: 15px; 
+    position: realtive;
+} 
+
+/*
 .container-footer {
     width: 100vw;
     margin: auto;
@@ -219,8 +238,7 @@ footer {
 
 .legal {
     justify-content: center;
-    text-wrap: wrap;
-    display: flex;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
     order: 1;
@@ -241,12 +259,14 @@ footer {
 }
 
 .socials {
+    color: whitesmoke;
+    text-decoration: none;
     justify-content: center;
     display: flex;
     text-wrap: wrap;
     height: 100%;
     width: 100%;
-    order: 2;
+    
 }
 
 .socials li {
@@ -260,7 +280,12 @@ footer {
     order: 4;
 }
 
-/* Footer Logos */
+** Footer Logos *
+
+.footer-content {
+    display: flex;
+    width: 100vw;
+}
 .footer-logos {
     justify-content: space-between;
     width: 100%;
@@ -275,25 +300,9 @@ footer {
 .footer-content p {
     text-align: center;
     display: inline;
+    display: flex;
 }
 
-#bmbc_logo {
-    padding-left: 15px;
-    padding-right: 15px;
-    object-fit: contain;
-    max-height: 6%;
-    max-width: auto;
-    position: realtive;
-}
-
-#barnsley-2030-logo {
-    max-height: 6%;
-    max-width: auto;
-    object-fit: contain;
-    padding-left: 15px;
-    padding-right: 15px; 
-    position: realtive;
-} 
 
 .copyright .footer-logos {
     display: flex;
