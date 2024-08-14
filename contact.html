@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Meta tags for search engines-->
-        <meta name="description" content="Apply for funding to make Barnsley the place of possibilities">
-        <meta name="keywords"
-            content="funding, Barnsley, community groups, education funding, voluntary sector, volunteering, charities, community interest companies, previous projects, funded 2022-23, Barnsley the place of possibilities, Barnsley 2030">
-        <title>Contact Us</title>
-        <!--Favicon-->
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/faviconbbb.png">
-        <!-- stylesheet-->
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta tags for search engines-->
+    <meta name="description" content="Apply for funding to make Barnsley the place of possibilities">
+    <meta name="keywords"
+        content="funding, Barnsley, community groups, education funding, voluntary sector, volunteering, charities, community interest companies, previous projects, funded 2022-23, Barnsley the place of possibilities, Barnsley 2030">
+    <title>Contact Us</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/faviconbbb.png">
+    <!-- stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
 <body>
     <header>
         <label>
@@ -21,40 +23,74 @@
                 <span class="top_line common"></span>
                 <span class="middle_line common"></span>
                 <span class="bottom_line common"></span>
-                    
+
             </div>
             <div id="slide">
-                    <h2>Menu</h2>
-                    <ul>
-                        <li><a href="index.html"><i class="fa-solid fa-angle-right"></i>About us</a></li></a>
-                        <li><a href="projects.html"><i class="fa-solid fa-angle-right"></i>Past Projects</li></a>
-                        <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i>Contact Us</li></a>
-                    </ul>
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-angle-right"></i>About us</a></li></a>
+                    <li><a href="projects.html"><i class="fa-solid fa-angle-right"></i>Past Projects</li></a>
+                    <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i>Contact Us</li></a>
+                </ul>
             </div>
         </label>
         </div>
         <a href="index.html"><img id="bbblogo" src="assets/images/bbb_horizontal.png"
-            alt="Better Barnsley Bond logo - three B's inside each other in gold and the words Better Barnsley Bond"
-            sizes=""></a>
-</header>
+                alt="Better Barnsley Bond logo - three B's inside each other in gold and the words Better Barnsley Bond"
+                sizes=""></a>
+    </header>
 
-<main>
-    <section id="background-image">
-    <div class="hero-image">
-        <img src="assets/images/donation-community-service-volunteer-support.jpg" alt="The community team at barnsley council" style="width:auto; height=height:400px">
+    <main>
+        <section id="background-image">
+            <div class="hero-image">
+            </div>
+            <h2>Contact Us</h2>
+            <p>Let's get started!</p>
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Full name" required>
+                <br>
+                <label for="phone">Phone</label>
+                <input type="number" name="phone" id="phone" placeholder="Phone or mobile number" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <input type="text" name="postcode" id="postcode"
+                    placeholder="Enter your full postcode where the project is taking place" required>
+                <br>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="10" placeholder="Write your message here..."
+                    required></textarea>
+                <br>
+                
+                <fieldset>
+                <legend>How should we contact you?</legend>
+                <div>
+                    <label for="preferred-phone">by phone</label>
+                    <input type="checkbox" name="preferred-communication" id="preferred-phone" required>
+                
+                    <label for="preferred-email">by email</label>
+                    <input type="checkbox" name="preferred-communication" id="preferred-email">
+                </div>
+                </fieldset>
 
-    </div>
-    </section>
-    
-</main>
+                <button type="button" id="send-btn">Send</button>
+            </form>
+
+
+        </section>
+
+    </main>
 
 
 
-<footer>
+    <footer>
 
-</footer>
+    </footer>
 </body>
 
 <!-- font awesome kit -->
-<script src="https://kit.fontawesome.com/07c4d71445.js"></script>
+<script src=" https://kit.fontawesome.com/07c4d71445.js"></script>
+
 </html>
