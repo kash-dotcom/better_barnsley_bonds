@@ -348,7 +348,7 @@ li:last-child {
     background-image: url('../images/hand_sappling_expanded.png');
     background-size: cover;
     /*filter: opacity(41%);*/
-    background-color: #4f1f6a;
+    background-color: #222222;
     position: relative;
     display: flex;
     justify-content: center;
@@ -357,9 +357,9 @@ li:last-child {
 }
 
 .contact-box {
-    position: fixed;
-    top: 534px;
-    left: 50%;
+    position: relative;
+    top: 453px;
+    left: 32%;
     transform: translate(-50%, -50%);
     width: 270px;
     height: 840px;
@@ -403,7 +403,7 @@ li:last-child {
 }
 
 #contact-form input:invalid {
-    border-color: #4f1f6a;
+    color: #4f1f6a;
 }
 
 #contact-form>p {
@@ -426,7 +426,7 @@ li:last-child {
 .contact-box form button {
     display: block;
     position: relative;
-    width: 100px;
+    width: 219px;
     margin-bottom: 10px;
     background-color: #5a3859;
     padding: 5px;
@@ -434,14 +434,42 @@ li:last-child {
     color: whitesmoke;
     font-size: medium;
     box-shadow: 0 0 8px rgba(245, 245, 245, 0.2);
-    ;
 }
 
-#contact-form form {
-    background: transparent;
+::placeholder {
+    color: whitesmoke;
+    font-size: medium;
+    
 }
 
+#message {
+    background-color: transparent;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: -2.2px;
+    width: 219px
+}
 
+legend {
+    background-color: transparent;
+}
+
+.choice {
+    background-color: transparent;
+}
+
+.choice input {
+    height: 17.2px;
+    width: 35px;
+    border: none;
+}
+
+fieldset {
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
 
 
 
