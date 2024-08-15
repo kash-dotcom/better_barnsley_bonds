@@ -1,4 +1,4 @@
-/*font -Open Sans*/ 
+/*font -Open Sans*/
 @import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
 @import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
 
@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #222222;
     color: whitesmoke;
     text-decoration: none;
@@ -19,23 +19,24 @@ body {
     display: flex;
     flex-direction: column;
     color: whitesmoke;
-    
+
 }
 
 /* Header */
 header {
     background-color: #222222;
-    color:whitesmoke;
+    color: whitesmoke;
     font-size: medium;
     font-weight: 600;
     width: auto;
     height: 18vh;
-} 
+}
 
 /* Navigation bar - targeting the logo */
 .navbar {
     padding-left: 15px;
-    padding-right: 15px;;
+    padding-right: 15px;
+    ;
     height: 20vh;
     width: 30%;
 }
@@ -49,19 +50,19 @@ header {
     object-fit: fill;
     padding: auto;
     transform: translateX(0);
-} 
+}
 
 /*slide bar */
 #slide {
     position: absolute;
     width: 180px;
     height: 200px;
-    background-color: #222222; 
+    background-color: #222222;
     transition: 0.5s ease;
     transform: translateX(-180px);
     border-radius: 10px;
-    
-}  
+
+}
 
 #slide h2 {
     color: whitesmoke;
@@ -116,7 +117,7 @@ label input {
     cursor: pointer;
     border-radius: 2px;
     background-color: #2c2b2c;
-    box-shadow: 0 0 10px rgba(245,245,245,0.3);
+    box-shadow: 0 0 10px rgba(245, 245, 245, 0.3);
 }
 
 .toggle .common {
@@ -147,28 +148,30 @@ label input {
     transform: translate(-50%, -50%);
 }
 
-input:checked ~ .toggle .top_line {
+input:checked~.toggle .top_line {
     left: 2px;
     top: 14px;
     width: 25px;
     transform: rotate(45deg);
 }
-input:checked ~ .toggle .bottom_line {
+
+input:checked~.toggle .bottom_line {
     left: 2px;
     top: 14px;
     width: 25px;
     transform: rotate(-45deg);
 }
-input:checked ~ .toggle .middle_line {
+
+input:checked~.toggle .middle_line {
     opacity: 0;
     transform: translateX(20px);
 }
 
-input:checked ~ #slide {
+input:checked~#slide {
     transform: translateX(0);
 }
 
-#toggle-checked:checked ~ a #bbblogo {
+#toggle-checked:checked~a #bbblogo {
     transform: translateX(151px);
 }
 
@@ -177,7 +180,7 @@ main {
     flex: 1 0 auto;
 }
 
-/*footer*/
+/*footer
 
 .footer-container {
     background-color: #222222; 
@@ -276,6 +279,7 @@ main {
     display: flex;
     width: 100vw;
 }
+
 .footer-logos {
     justify-content: space-between;
     width: 100%;
@@ -283,10 +287,11 @@ main {
     display: inline-block;
     padding-left: 15px;
     padding-right: 15px;
-    position: relative; 
+    position: relative;
     order: 5;
- 
+
 }
+
 .footer-content p {
     text-align: center;
     display: inline;
@@ -299,10 +304,11 @@ main {
     flex-direction: column;
 }
 
-.footer-content-barnsley-council{
+.footer-content-barnsley-council {
     display: ;
 }
-.footer-content-barnsley-council a h2 ul{
+
+.footer-content-barnsley-council a h2 ul {
     align-items: start;
 
 }
@@ -336,29 +342,33 @@ li:last-child {
 }
 
 
-/* Contact us page 
+/* Contact us page*/
 
 .hero-image {
-    height: auto;
-    width: 360px;
-    background: url(/workspace/better_barnsley_bonds/assets/images/donation-community-service-volunteer-support.jpg) no-repeat center center/cover;
-    background-color: lightgray;
-}*/
+    margin: 0;
+    max-height: 100%;
+    width: auto;
+    background: url(../images/hand_sappling_expanded.png) no-repeat center center / cover;
+    filter: opacity(41%);
+    background-color: #4f1f6a;
+
+}
 
 #contact-us {
-    margin: 60px;
+    margin: 0;
     height: max-content;
     width: 200px;
+
 }
 
 #contact-form {
     height: 600px;
     width: 150px;
     background-color: purple;
-    box-shadow:  rgba(245,245,245,0.2);
+    box-shadow: rgba(245, 245, 245, 0.2);
 }
 
-#contact-form form{
+#contact-form form {
     height: auto;
     width: auto;
 }
@@ -379,7 +389,7 @@ li:last-child {
     border-radius: 5px;
     color: whitesmoke;
     font-size: medium;
-    box-shadow: 0 0 8px rgba(245,245,245,0.2);
+    box-shadow: 0 0 8px rgba(245, 245, 245, 0.2);
     ;
 }
 
@@ -398,41 +408,24 @@ li:last-child {
 
 
 /*Mobile M - 375px*/
-@media screen and (max-width: 375px) {
-    
-
-}
+@media screen and (max-width: 375px) {}
 
 /*Mobile L - 425px*/
-@media screen and (max-width: 425px) {
-    
-
-}
+@media screen and (max-width: 425px) {}
 
 
 /*Tablet - 768px*/
-@media screen and (max-width: 768px) {
-    
-
-}
+@media screen and (max-width: 768px) {}
 
 /*Laptop - 1024px*/
-@media screen and (max-width: 1024px) {
-    
+@media screen and (max-width: 1024px) {}
 
-}
 /*Large laptop - 1440px*/
-@media screen and (max-width: 1440px) {
-    
-
-}
+@media screen and (max-width: 1440px) {}
 
 
 /*4K - 2560px*/
-@media screen and (max-width: 2560px) {
-    
-
-}
+@media screen and (max-width: 2560px) {}
 
 
 /* Logos on either side of the screen */
@@ -572,4 +565,4 @@ li:last-child {
 li {
     display: inline;
     justify-content: space-between;
-*/ 
+*/
