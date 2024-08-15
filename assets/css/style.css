@@ -178,6 +178,34 @@ input:checked~#slide {
 /* Make main element take up any surplus space to push footer down */
 main {
     flex: 1 0 auto;
+    background-color: whitesmoke;
+}
+/*About Us*/
+
+#barnsley-town-hall {
+    height: auto;
+    width: 500px;
+}
+
+.about-us p {
+    background-color: whitesmoke;
+    color: #222222;
+    padding: 31px;
+    padding: 0 31px 20px 31px;
+}
+
+.about-us h1 {
+    background-color: whitesmoke;
+    color: #222222;
+    padding: 31px 31px 13px 31px;
+}
+
+.about-us ul li  {
+    background-color: whitesmoke;
+    color: #222222;
+    padding: 31px;
+    padding: 31px 31px 0px 31px;
+    list-style: disc;
 }
 
 /*footer
