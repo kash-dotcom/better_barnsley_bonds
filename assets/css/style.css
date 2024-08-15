@@ -344,33 +344,65 @@ li:last-child {
 
 /* Contact us page*/
 
-.hero-image {
-    margin: 0;
-    max-height: 100%;
-    width: auto;
-    background: url(../images/hand_sappling_expanded.png) no-repeat center center / cover;
-    filter: opacity(41%);
+#contact-us {
+    background-image: url('../images/hand_sappling_expanded.png');
+    background-size: cover;
+    /*filter: opacity(41%);*/
     background-color: #4f1f6a;
-
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 
-#contact-us {
-    margin: 0;
-    height: max-content;
-    width: 200px;
+.contact-box {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 252px;
+    height: 438px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
 
+.contact-box h2 {
+    background-color: transparent;
+}
+
+.contact-box p {
+    background-color:transparent;
+}
+
+.contact-box form {
+    background-color: transparent;
+}
+
+#contact-form input {
+    height: 30.2px;
+    width: 219px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 11px;
+    margin-top: 11px;
+    
+}
+
+#contact-form input:invalid {
+    border-color: #4f1f6a;
+}
+
+#contact-form>p {
+    margin-bottom: 20px;
+    background: transparent;
 }
 
 #contact-form {
     height: 600px;
     width: 150px;
-    background-color: purple;
-    box-shadow: rgba(245, 245, 245, 0.2);
-}
-
-#contact-form form {
-    height: auto;
-    width: auto;
+    background-color: transparent;
 }
 
 #contact-form input {
@@ -379,7 +411,7 @@ li:last-child {
     border-radius: 3px;
 }
 
-#contact-form button {
+.contact-box form button {
     display: block;
     position: relative;
     width: 100px;
@@ -393,7 +425,9 @@ li:last-child {
     ;
 }
 
-
+#contact-form form {
+    background: transparent;
+}
 
 
 
@@ -416,6 +450,7 @@ li:last-child {
 
 /*Tablet - 768px*/
 @media screen and (max-width: 768px) {}
+/* contact us page - image breaking point
 
 /*Laptop - 1024px*/
 @media screen and (max-width: 1024px) {}
