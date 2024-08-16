@@ -361,32 +361,49 @@ main {
 .about-us-links {
     background: #5a3859;
     color: whitesmoke;
+    padding: 6px 31px;
+    align-self: center;
 }
 
 strong {
     background-color: whitesmoke;
+    color: #222222;
+    padding: 16px 31px 10px 31px;
 }
-.apply {
-
+.about-us-ul {
+    margin-left: 53px;
+}
+.about-us-ul li {
+    padding: 16px 31px 10px 31px;
+    list-style-type: square;
 }
 
+#click-me {
+    margin-bottom: 25px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
 .videos {
     align-self: center;
 }
 
-.text {
+.images a {
+    
 
 }
 
 .images {
     display: flex;
     background-color: whitesmoke;
-    padding: 0 31px 20px 31px;
+    padding: 20px 31px;
 }
 
 .images img{
-    max-width: 356px;
-    width: auto;
+    max-width: 253px;
+    height: auto;
     align-self: center;
 }
 .about-us p {
@@ -405,9 +422,8 @@ strong {
 .about-us ul li  {
     background-color: whitesmoke;
     color: #222222;
-    padding: 31px;
-    padding: 31px 31px 0px 31px;
-    list-style: disc;
+    padding: 9px 0px 0px 12px;
+    list-style-type: square;
 }
 
 /* Images*/
