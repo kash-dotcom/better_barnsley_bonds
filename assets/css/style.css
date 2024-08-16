@@ -353,10 +353,19 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: stretch;
     align-items: center;
 
 }
  
+.about-us-links {
+    background: #5a3859;
+    color: whitesmoke;
+}
+
+strong {
+    background-color: whitesmoke;
+}
 .apply {
 
 }
