@@ -36,18 +36,17 @@ header {
 .navbar {
     padding-left: 15px;
     padding-right: 15px;
-    ;
     height: 20vh;
     width: 30%;
 }
 
-/*styling for the Better Barnsley Bond*/
+/* Styling for the Better Barnsley Bond*/
 #bbblogo {
-    height: 45%;
+    height: 32%;
     width: auto;
     position: relative;
-    top: 28%;
-    left: 196px;
+    top: -122%;
+    left: 272px;
     object-fit: fill;
     padding: auto;
     transform: translateX(0);
@@ -65,7 +64,7 @@ header {
 
 }
 
-/*Menu header*/'
+/*Menu header*/
 #slide h2 {
     color: whitesmoke;
     font-weight: 800;
@@ -85,7 +84,7 @@ header {
     border-bottom: 1px solid white;
 }
 
-/*BBB logo -with transition*/
+/*BBB logo link*/
 #slide ul li a {
     color: whitesmoke;
     font-weight: 500;
