@@ -202,10 +202,40 @@ main {
 /* ---------------------------------------FOOTER-----------------------------------*/
 /** Footer Logos */
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+}
+
+h4 {
+    align-self: center;
+}
+
+.barnsley-council ul li {
+    align-self: center;
+    font-size: small;
+}
 .footer-content {
     display: flex;
     width: 100vw;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 10px
+}
+
+.barnsley-council {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 21px;
+    
+}
+
+.legal {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .footer-logos {
@@ -225,14 +255,14 @@ main {
 }
 
 
-.copyright .footer-logos {
+.copyright {
     display: flex;
-    flex-direction: column;
+}
+.copyright p { 
+    align-self: center;
+    font-size: small;
 }
 
-.footer-content-barnsley-council {
-    display: ;
-}
 
 .footer-content-barnsley-council a h2 ul {
     align-items: start;
@@ -457,9 +487,6 @@ strong {
     vertical-align: bottom;
 }
 
-li:last-child {
-    flex-grow: 10;
-}
 
 /*Quotation & context */
 
