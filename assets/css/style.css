@@ -44,7 +44,7 @@ header {
     height: auto;
     width: 31vw;
     position: relative;
-    top: -253px;
+    top: -267px;
     left: 248px;
     object-fit: fill;
     transform: translateX(0);
@@ -560,10 +560,12 @@ strong {
  Contact us page*/
 
  /* ---------------------------------------CONTACT-----------------------------------*/
-#contact-us {
+/*Section Id - background */
+ #contact-us {
     background-image: url('../images/hand_sappling_expanded.png');
     background-size: cover;
     background-color: #222222;
+    padding-bottom: 45px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -571,6 +573,7 @@ strong {
     height: 100vh;
 }
 
+/* Box around the form */
 .contact-box {
     position: relative;
     top: 338px;
@@ -580,26 +583,30 @@ strong {
     height: 635px;
     padding: 25px 28px;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #222222;
     border-radius: 10px;
 }
 
+/*Heading above the form*/
 .contact-box h2 {
     background-color: transparent;
     margin-left: -3px;
 }
 
+/*Tagline for the form*/
 .contact-box p {
     background-color:transparent;
     margin-left: -3px;
 }
 
+/*Turns the form transparent*/
 .contact-box form {
     background-color: transparent;
     border-left: 10px;
     
 }
 
+/*Controls the input boxes of the form*/
 .contact-box input {
     height: 30.2px;
     width: 251px;
@@ -613,31 +620,17 @@ strong {
     
 }
 
+/*Controls the labels of the form*/
 .contact-box label {
     background-color: rgba(0, 0, 0, -31.5);
 }
 
+/*Changes colour when the user inputs the wrong information*/
 #contact-form input:invalid {
     color: #4f1f6b;
 }
 
-#contact-form>p {
-    margin-bottom: 20px;
-    background: transparent;
-}
-
-#contact-form {
-    height: 600px;
-    width: 150px;
-    background-color: transparent;
-}
-
-#contact-form input {
-    box-sizing: border-box;
-    border-color: whitesmoke;
-    border-radius: 3px;
-}
-
+/* Submit button */
 .contact-box form button {
     display: block;
     position: relative;
@@ -651,18 +644,27 @@ strong {
     box-shadow: 0 0 8px rgba(245, 245, 245, 0.2);
 }
 
+/*placehoder - used instead of labels*/
 ::placeholder {
     color: whitesmoke;
     font-size: medium;
     
 }
-
+/*message box*/
 #message {
     background-color: transparent;
     padding-left: 10px;
     padding-top: 5px;
     margin-left: -2.2px;
     width: 250px;
+}
+
+/*Options for communication*/
+fieldset {
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 14px;
 }
 
 legend {
@@ -673,18 +675,13 @@ legend {
     background-color: transparent;
 }
 
+/*size of boxes*/
 .choice input {
     height: 17.2px;
     width: 35px;
     border: none;
 }
 
-fieldset {
-    background-color: transparent;
-    border: none;
-    margin-top: 10px;
-    margin-bottom: 14px;
-}
 
 /* ---------------------------------------MEDIA QUERY-----------------------------------*/
 
@@ -713,7 +710,7 @@ fieldset {
 /*Laptop - 1024px*/
 @media (min-width: 1024px) {
     #bbblogo {
-        max-height: 93px;
+        max-height: 46px;
         width: auto;
     }
     .looking-for {
@@ -748,142 +745,3 @@ fieldset {
 /*4K - 2560px*/
 @media screen and (max-width: 2560px) {}
 
-
-/* Logos on either side of the screen */
-
-
-
-/*
-#barnsley-2030-logo{
-    bottom:10px;
-    left: 10px; 
-}
-
-#bmbc_logo {
-    bottom: 10px;
-    right: 10px;
-}
-
-
-.footer-content ul {
-    flex-direction: column;
-    position: relative;
-    justify-content: space-between;
-    width: 50%;
-    height: auto;
-    align-items: center;
-}
-    */
-
-
-
-
-/*
--- 
-    #footer
-    .footer menu (nav) -- .footer-legal-socials
-    .footer-legal
-    .footer-socials
-
-    .container-logos
-    .copyright (*)
-    .footer-b2030-logo(*)
-    .footer-bmbc-logo (*) 
-
-
-#footer {
-    background-color: #222222;
-    color: whitesmoke;
-    text-align: center;
-    text-wrap: wrap;
-    display: flex;
-    overflow: auto;
-    height: 100%;
-    width: 100%;
-}
-
-
-.footer_menu {
-    content: none;
-
- /*   line-height: 21.6px;
-    font-size: 16px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    */
-
-
-/* First container - legal and socials rows
-.footer-legal {
-    padding: 20px 0;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    display: inline;
-    position: relative;    
-}
-.footer-socials {
-    padding: 20px 0;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;    
-}
-
-.legal:hover {
-    text-decoration: underline;
-    color: whitesmoke;
-    font-size: large;
-    background-color: #222222;
-}
-
-/* Second container - logos & copywrigtht*/
-
-
-/* --creation of toggle menu --
-.toggle {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    top: 20px;
-    right: 15px;
-    z-index: 1;
-    cursor: pointer;
-    border-radius: 2px;
-    background-color: #222222;
-    box-shadow: 0 0 10px rgba(0, 0 , 0, 3);
-}
-
-/* 
-.toggle .common {
-    position: absolute;
-    height: 10px;
-    width: 20px;
-    background-color: whitesmoke;
-    border-radius: 50px;
-    transition: 0.3s ease;
-    z-index: 5;
-}
-
-.toggle .top-line {
-    top: 30%;
-    left: 50%;
-    transform: (-50%, -50%);
-/*
-#menu {
-    top: 40px;
-    right: 15px;
-    z-index: 2;
-}
-
-
-#menu .toggle {
-    position: absolute;
-}
-*/
-
-/* Will need later for media queries
-li {
-    display: inline;
-    justify-content: space-between;
-*/
