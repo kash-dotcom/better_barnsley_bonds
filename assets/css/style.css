@@ -252,9 +252,24 @@ h4 {
     display: flex;
 }
 
+.socials {
+    color: whitesmoke;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    text-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    
+}
 
+.socials li {
+    padding: 10px;
+    list-style-type:none;
+}
 .copyright {
     display: flex;
+    background-color: #222222;
 }
 .copyright p { 
     align-self: center;
@@ -264,7 +279,6 @@ h4 {
 
 .footer-content-barnsley-council a h2 ul {
     align-items: start;
-
 }
 
 /*footer
@@ -338,21 +352,7 @@ h4 {
     background-color: #5a3859;
 }
 
-.socials {
-    color: whitesmoke;
-    text-decoration: none;
-    justify-content: center;
-    display: flex;
-    text-wrap: wrap;
-    height: 100%;
-    width: 100%;
-    
-}
 
-.socials li {
-    padding: 10px;
-    list-style-type:none;
-}
 
 .copyright {
     text-align: center;
@@ -390,6 +390,8 @@ h4 {
     color: whitesmoke;
     padding: 6px 31px;
     align-self: center;
+    margin-bottom: 26px;
+    margin-top: 26px;
 }
 
 strong {
@@ -406,20 +408,15 @@ strong {
 }
 
 #click-me {
-    margin-bottom: 25px;
+    margin-bottom: 41px;
+    margin-top: 25px;
 }
-
 .text {
     display: flex;
     flex-direction: column;
 }
 .videos {
     align-self: center;
-}
-
-.images a {
-    
-
 }
 
 .images {
@@ -519,17 +516,27 @@ strong {
     flex-direction: column;
     align-items: center;
 }
-/*
-.context span {
-    margin: auto 0;
+
+.text-wrap-btn {
+    display: flex;
+    width: 393px;
+    height: 100px;
+    background-color: #222222;
+    word-break: break-all;
+    margin: 44px 0;
+    padding-block: 13px;
+    text-align: center;
+    text-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
+
  Contact us page*/
 
  /* ---------------------------------------CONTACT-----------------------------------*/
 #contact-us {
     background-image: url('../images/hand_sappling_expanded.png');
     background-size: cover;
-    /*filter: opacity(41%);*/
     background-color: #222222;
     position: relative;
     display: flex;
@@ -541,9 +548,9 @@ strong {
 .contact-box {
     position: relative;
     top: 338px;
-    left: 39%;
+    left: 52%;
     transform: translate(-50%, -50%);
-    width: 354px;
+    width: 305px;
     height: 635px;
     padding: 25px 28px;
     box-sizing: border-box;
@@ -569,7 +576,7 @@ strong {
 
 .contact-box input {
     height: 30.2px;
-    width: 300px;
+    width: 251px;
     padding: 10px;
     border: none;
     border-bottom: 1px solid whitesmoke;
@@ -608,7 +615,7 @@ strong {
 .contact-box form button {
     display: block;
     position: relative;
-    width: 300px;
+    width: 251px;
     margin-bottom: 10px;
     background-color: #5a3859;
     padding: 5px;
@@ -629,7 +636,7 @@ strong {
     padding-left: 10px;
     padding-top: 5px;
     margin-left: -2.2px;
-    width: 300px;
+    width: 250px;
 }
 
 legend {
@@ -767,7 +774,7 @@ fieldset {
 
 /* Second container - logos & copywrigtht*/
 
-*/
+
 /* --creation of toggle menu --
 .toggle {
     position: absolute;
