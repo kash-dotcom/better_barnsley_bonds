@@ -197,6 +197,12 @@ main {
 
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
 /* ---------------------------------------FOOTER-----------------------------------*/
 /** Footer Logos */
 
@@ -227,6 +233,9 @@ h4 {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 21px;
+    padding: 5px;
+    border-top-color: whitesmoke;
+    border-top-style: inset;
     
 }
 
@@ -427,7 +436,7 @@ strong {
 }
 
 .images img{
-    max-width: 339px;
+    max-width: 278px;
     height: auto;
     align-self: center;
 }
@@ -449,6 +458,16 @@ strong {
     color: #222222;
     padding: 9px 0px 0px 12px;
     list-style-type: square;
+}
+
+.apply {
+    display: flex;
+    align-self: center;
+}
+
+.apply-container {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Images*/
@@ -487,6 +506,12 @@ strong {
     background-color: #222222;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* To create a line between the header and the heading*/
 
 #header-break {
@@ -505,7 +530,7 @@ strong {
 /*break-point - table*/
 .text-wrap {
     display: flex;
-    width: 393px;
+    width: 330px;
     height: 100px;
     background-color: #222222;
     word-break: break-all;
@@ -519,11 +544,12 @@ strong {
 
 .text-wrap-btn {
     display: flex;
-    width: 393px;
+    width: 330
+    px;
     height: 100px;
     background-color: #222222;
     word-break: break-all;
-    margin: 44px 0;
+    margin: 44px 0 0;
     padding-block: 13px;
     text-align: center;
     text-wrap: wrap;
@@ -663,18 +689,57 @@ fieldset {
 /* ---------------------------------------MEDIA QUERY-----------------------------------*/
 
 /*Mobile M - 375px*/
-@media screen and (max-width: 375px) {}
+@media screen and (min-width: 375px) {}
 
 /*Mobile L - 425px*/
-@media screen and (max-width: 425px) {}
+@media screen and (min-width: 425px) {}
 
+
+
+@media (min-width: 520px) {
+  
+    #bbblogo {
+        max-height: 60px;
+        width: auto;
+    }
+}
 
 /*Tablet - 768px*/
-@media screen and (max-width: 768px) {}
+@media screen and (min-width: 768px) {}
 /* contact us page - image breaking point
 
+/*
+*
 /*Laptop - 1024px*/
-@media screen and (max-width: 1024px) {}
+@media (min-width: 1024px) {
+    #bbblogo {
+        max-height: 93px;
+        width: auto;
+    }
+    .looking-for {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        align-items: center;
+    }
+
+    .apply {
+        display: flex;
+        align-self: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .apply-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+
+
+
 
 /*Large laptop - 1440px*/
 @media screen and (max-width: 1440px) {}
