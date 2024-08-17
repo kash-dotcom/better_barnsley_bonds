@@ -107,7 +107,7 @@ header {
 }
 
 /*checkbox is hidden - using the label (burger) to interact*/
-label input {
+header input {
     display: none;
     visibility: hidden;
 }
@@ -395,17 +395,20 @@ h4 {
 }
  
 .about-us-links {
+    
     background: #5a3859;
     color: whitesmoke;
     padding: 6px 31px;
     align-self: center;
     margin-bottom: 26px;
     margin-top: 26px;
-    display: flex;
-    flex-direction: row-reverse;
-
 }
 
+.about-us-links:hover {
+    color: #4f1f6b;
+
+}
+/*
 .about-us-links:last-child {
     align-self: center;
     list-style-type: none;
@@ -414,7 +417,7 @@ h4 {
     padding-right: 5px;
     padding-left: 2px;
 }
-
+*/
 strong {
     background-color: whitesmoke;
     color: #222222;
@@ -426,7 +429,6 @@ strong {
 }
 .about-us-ul li {
     padding: 16px 31px 10px 31px;
-    list-style-type: square;
 }
 
 #click-me {
@@ -470,7 +472,6 @@ strong {
     background-color: whitesmoke;
     color: #222222;
     padding: 9px 0px 0px 12px;
-    list-style-type: square;
 }
 
 .apply {
@@ -865,6 +866,12 @@ legend {
         flex-direction: row;
     }
 
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        width: 100%;
+    }
 }
 
 
