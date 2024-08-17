@@ -1,0 +1,63 @@
+/*font -Open Sans*/
+@import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
+@import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+   /* display: flex;
+    flex-direction: column;*/
+    color: whitesmoke;
+
+}
+/* ---------------------------------------HEADER-----------------------------------*/
+/* Header */
+header {
+    background-color: #222222;
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: 600;
+    width: auto;
+    height: 16vh;
+}
+
+
+
+
+
+
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}

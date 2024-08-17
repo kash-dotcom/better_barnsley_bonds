@@ -12,22 +12,23 @@
     <!--Favicon-->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/faviconbbb.png">
     <!-- stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/togglestyle.css">
 </head>
 
 <body>
     <header>
-        <label>
-            <input type="checkbox" id="toggle-checked">
-            <div class="toggle">
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span class="toggle">
                 <span class="top_line common"></span>
                 <span class="middle_line common"></span>
                 <span class="bottom_line common"></span>
+            </span>
 
-            </div>
-            <nav id="slide">
-                <h2>Menu</h2>
-                <ul>
+        </label>
+        <nav>
+            <h2>Menu</h2>
+            <ul id="dropdown">>
                     <li><a href="index.html"><i class="fa-solid fa-angle-right"></i>About us</a></li></a>
                     <li><a href="projects.html"><i class="fa-solid fa-angle-right"></i>Past Projects</li></a>
                     <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i>Contact Us</li></a>
@@ -36,6 +37,5 @@
                     alt="Better Barnsley Bond logo - three B's inside each other in gold and the words Better Barnsley Bond"
                     sizes=""></a>
             </nav>
-        </label>
         </div>
     </header>
