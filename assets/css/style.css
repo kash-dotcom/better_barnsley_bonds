@@ -556,11 +556,10 @@ strong {
     flex-direction: column;
     align-items: center;
 }
-
- Contact us page*/
-
  /* ---------------------------------------CONTACT-----------------------------------*/
-/*Section Id - background */
+
+/*Section id - background */
+
  #contact-us {
     background-image: url('../images/hand_sappling_expanded.png');
     background-size: cover;
@@ -577,13 +576,13 @@ strong {
 .contact-box {
     position: relative;
     top: 338px;
-    left: 52%;
+    left: 43%;
     transform: translate(-50%, -50%);
     width: 305px;
     height: 635px;
     padding: 25px 28px;
     box-sizing: border-box;
-    background-color: #222222;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 
@@ -622,7 +621,7 @@ strong {
 
 /*Controls the labels of the form*/
 .contact-box label {
-    background-color: rgba(0, 0, 0, -31.5);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /*Changes colour when the user inputs the wrong information*/
@@ -688,10 +687,63 @@ legend {
 /*Mobile M - 375px*/
 @media screen and (min-width: 375px) {}
 
-/*Mobile L - 425px*/
-@media screen and (min-width: 425px) {}
+/*Mobile L - 412px*/
+@media screen and (min-width: 412px) {
+    .contact-box {
+        position: relative;
+        top: 420px;
+        left: 46%;
+        transform: translate(-50%, -50%);
+        width: 357px;
+        height: 767px;
+        padding: 25px 28px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
 
+/*Controls the input boxes of the form*/
+.contact-box input {
+    height: 30.2px;
+    width: 295px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
+    margin-bottom: 10px;
+    margin-left: -3px;
+    margin-top: 11px;
+    
+}
+/*message box*/
+#message {
+    background-color: transparent;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: -2.2px;
+    width: 295px;
+}
+/* Submit button */
+.contact-box form button {
+    display: block;
+    position: relative;
+    width: 295px;
+    margin-bottom: 10px;
+    background-color: #5a3859;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: medium;
+    box-shadow: 0 0 8px rgba(245, 245, 245, 0.2);
+}
+/*size of boxes*/
+.choice input {
+    height: 17.2px;
+    width: 35px;
+    border: none;
+}
 
+}
 
 @media (min-width: 520px) {
   
@@ -701,14 +753,68 @@ legend {
     }
 }
 
-/*Tablet - 768px*/
-@media screen and (min-width: 768px) {}
-/* contact us page - image breaking point
+/*Tablet - 741px*/
+@media screen and (min-width: 741px) {
+/* contact us page - image breaking point */
 
-/*
-*
+    .contact-box {
+        position: relative;
+        top: 338px;
+        left: -1%;
+        transform: translate(-50%, -50%);
+        width: 348px;
+        height: 635px;
+        padding: 25px 28px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+/*message box*/
+#message {
+    background-color: transparent;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: -2.2px;
+    width: 295px;
+}
+/* Submit button */
+.contact-box form button {
+    display: block;
+    position: relative;
+    width: 295px;
+    margin-bottom: 10px;
+    background-color: #5a3859;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: medium;
+    box-shadow: 0 0 8px rgba(245, 245, 245, 0.2);
+}
+/*size of boxes*/
+.choice input {
+    height: 17.2px;
+    width: 35px;
+    border: none;
+}
+
+}
 /*Laptop - 1024px*/
 @media (min-width: 1024px) {
+
+   /*contact page - location of form*/
+    .contact-box {
+        position: relative;
+        top: 338px;
+        left: -6%;
+        transform: translate(-50%, -50%);
+        width: 305px;
+        height: 635px;
+        padding: 25px 28px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+   
     #bbblogo {
         max-height: 46px;
         width: auto;
