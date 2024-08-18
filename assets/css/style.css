@@ -31,47 +31,61 @@ header {
     height: 16vh;
 }
 
-/* Navigation bar - targeting the logo */
-.navbar {
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 20vh;
-    width: 30%;
+/* Navbar styles with dropdown toggle */
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    transition: all 5 ease;
 }
+
+#nav-toggle {
+    display: none;
+}
+
 
 /* Styling for the Better Barnsley Bond*/
 #bbblogo {
     height: auto;
     width: 31vw;
-    position: relative;
-    top: -267px;
-    left: 248px;
+    position: absolute;
+    top: -53px;
+    left: 179px;
     object-fit: fill;
+    transition: 5s;
     transform: translateX(0);
 }
 
 /* Menu slides in from the right*/
 #slide {
     position: absolute;
-    width: 180px;
-    height: 296px;
+    width: 143px;
+    height: 200px;
     background-color: #222222;
-    transition: 1 ease;
-    transform: translateX(-180px);
-    border-radius: 10px;
+    transition: transform 1s;
+    transform: translateX(-113px);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     z-index: 1;
-
+    top: 19%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
 }
+
 
 /*Menu header*/
 #slide h2 {
     color: whitesmoke;
-    font-weight: 800;
+    position: fixed;
+    top: 13%;
+    left: 43%;
+    font-weight: 700;
     text-align: left;
     padding: 20px 0 0 60px;
     pointer-events: none;
-    border-bottom: 1px solid white;
-    padding-bottom: 10px;
+    padding-bottom: 27px;
+    transform: rotate(90deg);
 }
 
 /*Menu list*/
@@ -79,8 +93,9 @@ header {
     list-style: none;
     color: whitesmoke;
     font-size: 1rem;
-    padding: 20px;
-    border-bottom: 1px solid white;
+    padding: 8px;
+    align-self: center;
+    
 }
 
 /*BBB logo link*/
@@ -132,6 +147,7 @@ header {
     transition: 0.3s ease;
 }
 
+
 /* the creation of the top line of the burger*/
 .toggle .top_line {
     top: 30%;
@@ -154,28 +170,6 @@ header {
     transform: translate(-50%, -50%);
 }
 
-/*top line animation turn into the left side X*/
-input:checked~.toggle .top_line {
-    left: 2px;
-    top: 14px;
-    width: 25px;
-    transform: rotate(45deg);
-}
-
-/*bottom line animation - turn into the right side of the X*/
-input:checked~.toggle .bottom_line {
-    left: 2px;
-    top: 14px;
-    width: 25px;
-    transform: rotate(-45deg);
-}
-
-/*top line animation - move to the right off */
-input:checked~.toggle .middle_line {
-    opacity: 0;
-    transform: translateX(20px);
-}
-
 /*moves the menu so it can be seen* (unchecked is when it is off screen*/
 input:checked~#slide {
     transform: translateX(0);
@@ -185,6 +179,11 @@ input:checked~#slide {
 #toggle-checked:checked~a #bbblogo {
     transform: translateX(151px);
 }
+
+#menu-toggle {
+    display: none;
+}
+
 
 /* Make main element take up any surplus space to push footer down */
 main {

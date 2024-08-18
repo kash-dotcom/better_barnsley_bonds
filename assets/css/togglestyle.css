@@ -15,7 +15,7 @@
 /* General Styles */
 body {
     min-height: 100vh;
-   /* display: flex;
+   /* display: flex;'
     flex-direction: column;*/
     color: whitesmoke;
 
@@ -31,28 +31,189 @@ header {
     height: 16vh;
 }
 
-
 /* Navbar styles with dropdown toggle */
-nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-}
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display: block;
+    transition: all 5 ease;
 }
+
+
 
 #nav-toggle {
     display: none;
 }
 
-.nav-toggle-label {
-    font-size: 2rem;
+
+/* Styling for the Better Barnsley Bond*/
+#bbblogo {
+    height: auto;
+    width: 31vw;
+    position: absolute;
+    top: -53px;
+    left: 179px;
+    object-fit: fill;
+    transition: 5s;
+    transform: translateX(0);
 }
+
+/* Menu slides in from the right*/
+#slide {
+    position: absolute;
+    width: 143px;
+    height: 200px;
+    background-color: #222222;
+    transition: transform 1s;
+    transform: translateX(-113px);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+    top: 19%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+}
+
+
+/*Menu header*/
+#slide h2 {
+    color: whitesmoke;
+    position: fixed;
+    top: 13%;
+    left: 43%;
+    font-weight: 700;
+    text-align: left;
+    padding: 20px 0 0 60px;
+    pointer-events: none;
+    padding-bottom: 27px;
+    transform: rotate(90deg);
+}
+
+/*Menu list*/
+#slide li {
+    list-style: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 8px;
+    align-self: center;
+    
+}
+
+/*BBB logo link*/
+#slide ul li a {
+    color: whitesmoke;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+/*Menu hover over colour change*/
+#slide ul li:hover a {
+    color: whitesmoke;
+    background-color: #5a3859;
+}
+
+/*Arrows at the sides of the list*/
+#slide ul li a i {
+    width: 30px;
+    text-align: center;
+}
+
+
+
+/* Designing the (burger) menu*/
+.toggle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 15px;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #2c2b2c;
+    box-shadow: 0 0 10px rgba(245, 245, 245, 0.3);
+}
+
+/*Design for all three lines and the overall class*/
+.toggle .common {
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+
+/* the creation of the top line of the burger*/
+.toggle .top_line {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* the creation of the middle line of the burger*/
+.toggle .middle_line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 00.5s);
+}
+
+/* the creation of the bottom line of the burger*/
+.toggle .bottom_line {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*moves the menu so it can be seen* (unchecked is when it is off screen*/
+input:checked~#slide {
+    transform: translateX(0);
+}
+
+/*moves the bbb logo when the menu is selected*/
+#toggle-checked:checked~a #bbblogo {
+    transform: translateX(151px);
+}
+
+/* menu tog - be able to use tab as a button -currently broken
+#menu-toggle {
+    position:fixed;
+    top:1%;
+    left: 150%;
+    display:none
+}
+
+#menu-toggle:checked #slide h2 {
+    transform: translateX(15%);
+}*/
+
+/*currently broken - animates the burger to make a cross (x)
+/*top line animation turn into the left side X
+input:checked~.toggle .top_line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+
+/*bottom line animation - turn into the right side of the X
+input:checked~.toggle .bottom_line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+
+/*top line animation - move to the right off 
+input:checked~.toggle .middle_line {
+    opacity: 0;
+    transform: translateX(20px);
+}
+

@@ -1,5 +1,6 @@
 # Barnsley Better Bond
 The Barnsley Better Bond is a fund that supports community projects that align with the Better Barnsley Project, a vision to transform Barnsley as a place of opportunities. The fund is established from the contributions made by providers contracted by the council to perform works or services. The Barnsley Better Bond website is a new platform that provides information and guidance on how to apply for the fund, as well as links to the Barnsley 2030 ambitions that outline the council's priorities and goals.
+
 https://kash-dotcom.github.io/better_barnsley_bonds/
 
 # User Experience
