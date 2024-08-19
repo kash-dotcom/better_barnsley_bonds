@@ -48,7 +48,7 @@ header {
     height: auto;
     width: 31vw;
     position: absolute;
-    top: -53px;
+    top: -31%;
     left: 179px;
     object-fit: fill;
     transition: 5s;
@@ -56,17 +56,19 @@ header {
 }
 
 /* Menu slides in from the right*/
+
 #slide {
     position: absolute;
     width: 143px;
     height: 200px;
-    background-color: #222222;
+    background-color: #5a3859;
+    color: #222222;
     transition: transform 1s;
     transform: translateX(-113px);
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     z-index: 1;
-    top: 19%;
+    top: 111%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -370,6 +372,7 @@ h4 {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
+    color: #222222;
     width: 100%;
     
 }
@@ -399,33 +402,18 @@ h4 {
     margin-top: 26px;
 }
 
-.about-us-links:hover {
-    color: #4f1f6b;
 
-}
-/*
-.about-us-links:last-child {
-    align-self: center;
-    list-style-type: none;
-    width: 161px;
-    height: 25px;
-    padding-right: 5px;
-    padding-left: 2px;
-}
-*/
-strong {
-    background-color: whitesmoke;
-    color: #222222;
-    padding: 16px 31px 10px 31px;
-}
+
 .about-us-ul {
     margin-left: 53px;
-    flex-direction: column;
-}
-.about-us-ul li {
-    padding: 16px 31px 10px 31px;
 }
 
+.about-us-ul li  {
+    background-color: whitesmoke;
+    color: #222222;
+    padding: 9px 0px 0px 8px;
+    list-style-type: square;
+}
 #click-me {
     margin-bottom: 41px;
     margin-top: 25px;
@@ -454,19 +442,13 @@ strong {
     background-color: whitesmoke;
     color: #222222;
     padding: 31px;
-    padding: 0 31px 20px 31px;
+    padding: 0 31px 20px 50px;
 }
 
 .about-us h1 {
     background-color: whitesmoke;
     color: #222222;
-    padding: 31px 31px 13px 31px;
-}
-
-.about-us ul li  {
-    background-color: whitesmoke;
-    color: #222222;
-    padding: 9px 0px 0px 12px;
+    padding: 31px 31px 13px 50px;
 }
 
 .apply {
@@ -479,13 +461,42 @@ strong {
     flex-direction: column;
 }
 
-
-
-/* Images*/
-#barnsley-town-hall {
-    height: auto;
-    width: 500px;
+.about-us-links h1 {
+    color: #222222;
+    padding: 31px 31px 13px 50px;
 }
+
+.container h1 {
+    color: #222222;
+    padding: 31px 31px 13px 50px;
+}
+.enterprising-barnsley{
+    display: flex;
+    flex-direction: column;
+    padding: 31px 31px 13px 50px;
+}
+
+.enterprising-barnsley p {
+    color: #222222;
+    align-self: center;
+}
+
+strong {
+    background-color: whitesmoke;
+    color: #222222;
+    padding: 16px 31px 10px 50px;
+}
+
+element.style {
+    color: #222222;
+    list-style-type: square;
+}
+.moving-foward {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 /* ---------------------------------------PROJECTS-----------------------------------*/
 
 /*past projects page */
@@ -864,7 +875,7 @@ legend {
     .container {
         display: flex;
         flex-direction: column;
-        background-color: whitesmoke;
+        background-color: #222222;
         width: 100%;
     }
 }
