@@ -56,7 +56,7 @@
                             <br>
 
                             <!--<label for="phone">Phone</label>-->
-                            <input type="number" name="phone" id="phone" placeholder="Phone or mobile number" required>
+                            <input type="number" name="phone" id="phone" placeholder="Phone or mobile number" minlength="11" required >
 
                             <br>
 
@@ -80,10 +80,10 @@
                             <legend>How should we contact you?</legend>
                             <div class="choice">
                                 <label for="preferred-phone">by phone</label>
-                                <input type="checkbox" name="preferred-communication" id="preferred-phone" validation required>
+                                <input type="radio" name="preferred-communication" id="preferred-phone" validation required>
                             
                                 <label for="preferred-email">by email</label>
-                                <input type="checkbox" name="preferred-communication" id="preferred-email">
+                                <input type="radio" name="preferred-communication" id="preferred-email">
                             </div>
                             </fieldset>
                             <button type="submit" id="send-btn">Send</button>

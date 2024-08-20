@@ -744,6 +744,14 @@ legend {
 /*Mobile M - 375px*/
 @media screen and (min-width: 375px) {}
 
+
+
+
+@media screen (min-width: 410px) {
+    /*contact form*/
+
+}
+    
 /*Mobile L - 412px*/
 @media screen and (min-width: 412px) {
     .contact-box {
@@ -847,6 +855,7 @@ legend {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    align-items: center;
     
 }
 /*
@@ -955,10 +964,7 @@ legend {
         border-bottom: #222222;
         border-width: ;
     }
-    .about-us-sec {
-        display: flex;
-        flex-direction: row;
-    }
+
     .apply {
         display: flex;
         align-self: center;
