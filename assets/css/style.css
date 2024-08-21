@@ -634,8 +634,9 @@ element.style {
     position: relative;
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 97vw;
     height: 100vh;
+    
 }
 
 /* Box around the form */
@@ -764,7 +765,7 @@ legend {
 @media screen and (min-width: 412px) {
     .contact-box {
         position: relative;
-        top: 420px;
+        top: 338px;
         left: 46%;
         transform: translate(-50%, -50%);
         width: 357px;
