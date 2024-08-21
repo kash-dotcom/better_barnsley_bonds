@@ -42,6 +42,19 @@ header {
     display: none;
 }
 
+/*moves the bbb logo when the menu is selected*/
+#toggle-checked:checked~a #bbblogo {
+    transform: translateX(151px);
+}
+/*toggle label for side menu and logo movement
+#menu-toggle {
+    
+    
+}*/
+
+#menu-toggle:checked~img {
+    transform: translateX(151px);
+}
 
 /* Styling for the Better Barnsley Bond*/
 #bbblogo {
@@ -73,6 +86,7 @@ header {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
+    flex-direction: row-reverse;
 }
 
 
@@ -177,14 +191,7 @@ input:checked~#slide {
     transform: translateX(0);
 }
 
-/*moves the bbb logo when the menu is selected*/
-#toggle-checked:checked~a #bbblogo {
-    transform: translateX(151px);
-}
 
-#menu-toggle {
-    display: none;
-}
 
 
 /* Make main element take up any surplus space to push footer down */
