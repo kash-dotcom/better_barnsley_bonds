@@ -548,6 +548,7 @@ element.style {
 .past-projects-photos {
     height: 250px;
     width: auto;
+    padding-left: 50px;
 }
 
 .past-projects ul {
@@ -580,13 +581,13 @@ element.style {
 /* To create a line between the header and the heading*/
 
 #header-break {
-    padding: 5px;
+    padding: 5px 0 0 50px;
     border-top-color: whitesmoke;
     border-top-style: inset;
 }
 /*break between paragraph and gallery */
 #introduction {
-    padding: 0px 50px 21px 21px;
+    padding: 0px 50px 21px 50px;
 }
 
 /*Quotation & context */
