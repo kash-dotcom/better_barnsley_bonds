@@ -46,11 +46,11 @@ header {
 #toggle-checked:checked~a #bbblogo {
     transform: translateX(151px);
 }
-/*toggle label for side menu and logo movement
+/*toggle label for side menu and logo movement*/
 #menu-toggle {
+    display: none;
     
-    
-}*/
+}
 
 #menu-toggle:checked~img {
     transform: translateX(151px);
@@ -824,6 +824,7 @@ legend {
     #bbblogo {
         max-height: 60px;
         width: auto;
+        top: -51%;
     }
 }
 
