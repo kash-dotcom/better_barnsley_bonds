@@ -35,7 +35,7 @@ header {
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    transition: all 5 ease;
+    transition: all 1.5s ease;
 }
 
 #nav-toggle {
@@ -59,9 +59,9 @@ header {
 /* Styling for the Better Barnsley Bond*/
 #bbblogo {
     height: auto;
-    width: 31vw;
+    width: 47vw;
     position: absolute;
-    top: -31%;
+    top: -58%;
     left: 179px;
     object-fit: fill;
     transition: 5s;
@@ -73,7 +73,7 @@ header {
 #slide {
     position: absolute;
     width: 143px;
-    height: 200px;
+    height: 175px;
     background-color: #5a3859;
     color: #222222;
     transition: transform 1s;
@@ -176,7 +176,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 00.5s);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 00.5);
 }
 
 /* the creation of the bottom line of the burger*/
@@ -407,12 +407,11 @@ h4 {
     
     background: #5a3859;
     color: whitesmoke;
-    padding: 6px 7px;
+    padding: 4px 40px;
     align-self: center;
     margin-bottom: 26px;
     margin-top: 26px;
 }
-
 
 
 .about-us-ul {
@@ -522,6 +521,17 @@ h4 {
 .enterprising-barnsley p {
     color: #222222;
     align-self: center;
+    padding: 0px 9px 4px 2px;
+}
+
+.enterprising-barnsley a {
+background: #5a3859;
+color: whitesmoke;
+padding: 0 7px 5px;
+align-self: center;
+margin-bottom: 26px;
+margin-top: 26px;
+
 }
 
 strong {
@@ -548,7 +558,7 @@ element.style {
 .past-projects-photos {
     height: 250px;
     width: auto;
-    padding-left: 50px;
+    padding-left: 0;
 }
 
 .past-projects ul {
@@ -559,6 +569,7 @@ element.style {
 .past-projects ul li {
     height: 40vh;
     flex-grow: 1;
+    padding-left: 0;
 }
 
 .past-projects ul li img {
@@ -570,6 +581,8 @@ element.style {
 
 .past-projects {
     background-color: #222222;
+    display: flex;
+    flex-direction: column;
 }
 
 .projects {
@@ -596,11 +609,11 @@ element.style {
 /*break-point - table*/
 .text-wrap {
     display: flex;
-    width: 330px;
+    width: 303px;
     height: 100px;
     background-color: #222222;
     word-break: break-all;
-    margin: 44px -36px;
+    margin: 42px 0 43px 14px;
     padding-block: 13px;
     text-align: center;
     text-wrap: wrap;
@@ -610,17 +623,17 @@ element.style {
 
 .text-wrap-btn {
     display: flex;
-    width: 330
-    px;
+    width: 303px;
     height: 100px;
     background-color: #222222;
     word-break: break-all;
-    margin: 44px 0 0;
+    margin: -26px -22px 0px -13px;
     padding-block: 13px;
     text-align: center;
     text-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    align-self: center;
 }
  /* ---------------------------------------CONTACT-----------------------------------*/
 
@@ -634,7 +647,7 @@ element.style {
     position: relative;
     display: flex;
     justify-content: center;
-    width: 97vw;
+    width: 100vw;
     height: 100vh;
     
 }
@@ -643,7 +656,7 @@ element.style {
 .contact-box {
     position: relative;
     top: 338px;
-    left: 43%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 305px;
     height: 635px;
@@ -755,9 +768,9 @@ legend {
 
 
 
-
+/*contact form*/
 @media screen (min-width: 410px) {
-    /*contact form*/
+    
 
 }
     
@@ -769,7 +782,7 @@ legend {
         left: 46%;
         transform: translate(-50%, -50%);
         width: 357px;
-        height: 767px;
+        height: 635px;
         padding: 25px 28px;
         box-sizing: border-box;
         background-color: rgba(0, 0, 0, 0.5);
@@ -878,6 +891,23 @@ legend {
     */
 }
 
+/*Past Projects - 657px*/
+@media screen and (min-width: 657px) {
+    .text-wrap {
+        display: flex;
+        width: 330px;
+        height: 100px;
+        background-color: #222222;
+        word-break: break-all;
+        margin: 44px -36px;
+        padding-block: 13px;
+        text-align: center;
+        text-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 /*Tablet - 741px*/
 @media screen and (min-width: 741px) {
@@ -939,7 +969,7 @@ legend {
         top: 338px;
         left: -6%;
         transform: translate(-50%, -50%);
-        width: 305px;
+        width: 349px;
         height: 635px;
         padding: 25px 28px;
         box-sizing: border-box;
@@ -972,7 +1002,7 @@ legend {
         align-self: center;
         border-top: #222222;
         border-bottom: #222222;
-        border-width: ;
+    
     }
 
     .apply {
