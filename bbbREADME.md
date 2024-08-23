@@ -1,7 +1,7 @@
 # Barnsley Better Bond
 The Barnsley Better Bond is a fund that supports community projects that align with the Better Barnsley Project, a vision to transform Barnsley as a place of opportunities. The fund is established from the contributions made by providers contracted by the council to perform works or services. The Barnsley Better Bond website is a new platform that provides information and guidance on how to apply for the fund, as well as links to the Barnsley 2030 ambitions that outline the council's priorities and goals.
 
-https://kash-dotcom.github.io/better_barnsley_bonds/
+[https://kash-dotcom.github.io/better_barnsley_bonds/](https://kash-dotcom.github.io/better_barnsley_bonds/)
 
 # User Experience
 The website is aimed at community groups and organisations who would be familiar with the website but struggle to navigate it due to the amount of content. 
@@ -20,4 +20,17 @@ The logo also activates the menu
 [Colour Palette]: https://res.cloudinary.com/ddqlomb2x/image/upload/v1723929309/bbb_colour_palette_qtugvw.png
 
 
-Wireframes
+## Wireframes
+
+
+
+## Validation
+
+The CSS code passed validation using the W3C CSS Validator and no errors were found.
+
+![!\[!\[alt text\](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724359190/vcss-blue_ccudi5.png)\]](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724359190/vcss-blue_ccudi5.png)
+
+![alt text](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724359190/vcss_xqav6s.png)
+
+
+

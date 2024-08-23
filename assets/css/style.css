@@ -12,6 +12,7 @@
     list-style-type: none;
 }
 
+
 /* General Styles */
 body {
     min-height: 100vh;
@@ -20,6 +21,8 @@ body {
     color: whitesmoke;
 
 }
+
+
 /* ---------------------------------------HEADER-----------------------------------*/
 /* Header */
 header {
@@ -61,7 +64,7 @@ header {
     height: auto;
     width: 47vw;
     position: absolute;
-    top: -58%;
+    top: -43%;
     left: 179px;
     object-fit: fill;
     transition: 5s;
@@ -137,8 +140,6 @@ header {
     text-align: center;
 }
 
-
-
 /* Designing the (burger) menu*/
 .toggle {
     position: absolute;
@@ -190,8 +191,6 @@ header {
 input:checked~#slide {
     transform: translateX(0);
 }
-
-
 
 
 /* Make main element take up any surplus space to push footer down */
@@ -294,84 +293,6 @@ h4 {
     align-items: start;
 }
 
-/*footer
-
-.footer-container {
-    background-color: #222222; 
-    padding-bottom: 4rem;
-}
-
-.footer {
-    width: 80%;
-    height: 12vh;
-    background-color: #222222; 
-    color: whitesmoke;
-    font-size: x-small;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    text-decoration: none;
-    padding-top: 1rem;
-    margin: 0  auto;
-}
-#bmbc_logo {
-    padding-left: 15px;
-    padding-right: 15px;
-    object-fit: contain;
-    max-height: 100%;
-    max-width: auto;
-    position: realtive;
-}
-
-
-
-#barnsley-2030-logo {
-    max-height: 100%;
-    max-width: auto;
-    object-fit: contain;
-    padding-left: 15px;
-    padding-right: 15px; 
-    position: realtive;
-} 
-
-.container-footer {
-    width: 100vw;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-.legal {
-    justify-content: center;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    order: 1;
-    text-decoration: none;
-}
-
-.legal li {
-    list-style-type:none;
-    padding: 2px;
-    
-}
-
-.legal li:hover {
-    text-decoration: underline;
-    color: whitesmoke;
-    font-size: large;
-    background-color: #5a3859;
-}
-
-
-
-.copyright {
-    text-align: center;
-    padding: 2px;
-    order: 4;
-}
 /* ---------------------------------------ABOUT US-----------------------------------*/
 /*index.html- About us*/
 
@@ -492,11 +413,7 @@ h4 {
 /* Meet the panel - */
 .meet-panel {
     display: flex;
-    flex-direction: column;
-}
-
-.meet-panel-p {
-    
+    flex-direction: column-reverse;
 }
 
 .panel-logo {
@@ -556,9 +473,10 @@ element.style {
 
 
 .past-projects-photos {
-    height: 250px;
+    height: 268px;
     width: auto;
     padding-left: 0;
+    padding-top: 16px;
 }
 
 .past-projects ul {
@@ -612,13 +530,17 @@ element.style {
     width: 303px;
     height: 100px;
     background-color: #222222;
-    word-break: break-all;
+    word-break: normalh2;
     margin: 42px 0 43px 14px;
     padding-block: 13px;
     text-align: center;
     text-wrap: wrap;
     flex-direction: column;
     align-items: center;
+}
+
+.projects-span {
+    background-color: #222222;
 }
 
 .text-wrap-btn {
@@ -648,7 +570,7 @@ element.style {
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     
 }
 
@@ -763,17 +685,6 @@ legend {
 
 /* ---------------------------------------MEDIA QUERY-----------------------------------*/
 
-/*Mobile M - 375px*/
-@media screen and (min-width: 375px) {}
-
-
-
-/*contact form*/
-@media screen (min-width: 410px) {
-    
-
-}
-    
 /*Mobile L - 412px*/
 @media screen and (min-width: 412px) {
     .contact-box {
@@ -881,14 +792,6 @@ legend {
     align-items: center;
     
 }
-/*
-.container {
-    display: flex;
-    flex-direction: row;
-    background-color: whitesmoke;
-    color: #222222;
-    width: 100%;
-    */
 }
 
 /*Past Projects - 657px*/
@@ -913,6 +816,40 @@ legend {
 @media screen and (min-width: 741px) {
 /* contact us page - image breaking point */
 
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw;
+    word-break: normal;
+}
+
+p {
+    font-size: 2vw;
+    word-break: normal;
+}
+
+li {
+    font-size: 2vw;
+}
+
+strong {
+    font-size: 2.5vw;
+}
+
+#contact-us {
+    background-image: url('../images/hand_sappling_expanded.png');
+    background-size: cover;
+    background-color: #222222;
+    background-position: center;
+    padding-bottom: 45px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
     .contact-box {
         position: relative;
         top: 338px;
@@ -924,6 +861,21 @@ legend {
         box-sizing: border-box;
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 10px;
+    }
+    /*About page links*/
+    .about-us-links {
+        background: #5a3859;
+        color: whitesmoke;
+        padding: 4px 40px;
+        align-self: center;
+        margin-bottom: 26px;
+        margin-top: 26px;
+        font-size: 2vw;
+    }
+    .images img {
+        max-width: 313px;
+        height: auto;
+        align-self: center;
     }
 /*message box*/
 #message {
@@ -976,6 +928,11 @@ legend {
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 10px;
     }
+
+    #name {
+        font-size: 10vw;
+    }
+
    /*about-us*/
     #bbblogo {
         max-height: 46px;
@@ -988,7 +945,6 @@ legend {
         align-items: stretch;
         align-items: center;
         flex-direction: row-reverse;
-       
     }
 
     .looking-for-sec {
@@ -1013,7 +969,7 @@ legend {
         align-items: center;
     }
     .images img {
-        max-width: 275px;
+        max-width: 442px;
         height: auto;
         align-self: center;
     }
@@ -1029,17 +985,88 @@ legend {
         background-color: whitesmoke;
         width: 100%;
     }
+/* Past Projects photos*/
+.past-projects-photos {
+    height: 401px;
+    width: auto;
+    padding-left: 0;
+    padding-top: 16px;
+}
+}
+
+@media (min-width: 1440px) {
+.images img {
+    max-width: 635px;
+    height: auto;
+    align-self: center;
+}
+#bbblogo {
+    max-height: 130px;
+    width: auto;
+    position: absolute;
+    top: -115%;
+    left: 290px;
+    object-fit: fill;
+    transition: 5s;
+    transform: translateX(0);
+}
+
+.toggle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 12px;
+    left: 33px;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #2c2b2c;
+    box-shadow: 0 0 10px rgba(245, 245, 245, 0.3);
+}
+
+.toggle .common {
+    position: absolute;
+    height: 11px;
+    width: 59px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
 
 }
 
 
+/* */
+@media (min-width: 2560px) {
+.past-projects-photos {
+    height: 871px;
+    width: auto;
+    padding-left: 0;
+    padding-top: 16px;
+}
+
+.toggle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 12px;
+    left: 33px;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #2c2b2c;
+    box-shadow: 0 0 10px rgba(245, 245, 245, 0.3);
+}
+
+.toggle .common {
+    position: absolute;
+    height: 11px;
+    width: 74px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
 
 
-
-/*Large laptop - 1440px*/
-@media screen and (max-width: 1440px) {}
-
-
-/*4K - 2560px*/
-@media screen and (max-width: 2560px) {}
+}
 
