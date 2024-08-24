@@ -777,10 +777,7 @@ legend {
             top: -32%;
             left: 139%;
         }
-
 }
-    
-
 
 @media (min-width:620px) {
     /*About-us page*/
@@ -862,7 +859,8 @@ legend {
     #contact-us {
 
         width: 100vw;
-        height: 132vh;
+        height: 195vh;
+
     }
 
     .contact-box {
@@ -920,29 +918,31 @@ legend {
         width: auto;
         top: -63%;
         left: 139%;
+        
     }
 }
 
 @media (min-width: 900px) {
     #contact-us {
-        height: 162vh;
+        height: 194vh;
     }
 }
 
+
+
 /*Laptop - 1024px*/
 @media (min-width: 1024px) {
-
+    #contact-us {
+        height: 100vh;
+    }
     /*contact page - location of form*/
     .contact-box {
         left: -6%;
         width: 349px;
-        height: 69%;
-        top: 38%;
+        height: 103%;
+        top: 52%;
     }
 
-    #name {
-        font-size: 10vw;
-    }
 
     /*about-us*/
     #bbblogo {
@@ -965,9 +965,13 @@ legend {
 
 
     #slide {
-        width: 249px;
+
+        width: 244px;
         top: 97%;
-        left: -13%;
+        left: 0%;
+        transform: translateX(-257px);
+        height: 198px;
+
     }
 
     #toggle-checked:checked~a #bbblogo {
