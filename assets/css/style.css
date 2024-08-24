@@ -1119,8 +1119,6 @@ legend {
 
 @media (min-width: 2560px) {
 
-    
-    }
     .past-projects-photos {
         height: 871px;
         width: auto;
@@ -1149,6 +1147,5 @@ legend {
         border-radius: 50px;
         transition: 0.3s ease;
     }
-
 
 }
