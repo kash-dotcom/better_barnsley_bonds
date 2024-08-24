@@ -75,6 +75,7 @@ header {
     height: 71px;
     width: auto;
     position: fixed;
+    align-self: center;
     top: -70%;
     left: 130%;
     object-fit: fill;
@@ -1072,13 +1073,13 @@ legend {
         align-self: center;
     }
 
-    #bbblogo {
+    /*#bbblogo {
         max-height: 117px;
         width: auto;
         position: absolute;
         top: -47%;
         left: 183%;
-    }
+    }*/
     
 
     #slide {
@@ -1136,6 +1137,13 @@ legend {
     max-height: 217px;
     top: -139%;
     left: 144%;
+}
+}
+
+@media (min-width: 2204px) {
+#bbblogo {
+    top: -49%;
+    left: 160%;
 }
 }
 
