@@ -930,8 +930,10 @@ legend {
 
     /*about-us*/
     #bbblogo {
-        max-height: 81px;
+        max-height: 54px;
         width: auto;
+        top: -39%;
+        left: 139%;
     }
 
     #slide h2 {
