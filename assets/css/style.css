@@ -74,7 +74,7 @@ header {
 #bbblogo {
     height: 71px;
     width: auto;
-    position: absolute;
+    position: fixed;
     top: -70%;
     left: 130%;
     object-fit: fill;
@@ -933,7 +933,7 @@ legend {
 /*Laptop - 1024px*/
 @media (min-width: 1024px) {
     #contact-us {
-        height: 100vh;
+        height: 132vh;
     }
     /*contact page - location of form*/
     .contact-box {
@@ -948,7 +948,7 @@ legend {
     #bbblogo {
         max-height: 54px;
         width: auto;
-        top: -39%;
+        top: -30%;
         left: 139%;
     }
 
