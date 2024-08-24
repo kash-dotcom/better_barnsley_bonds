@@ -87,10 +87,10 @@ header {
 #slide {
     position: absolute;
     width: 143px;
-    height: 175px;
+    height: 163px;
     background-color: #222222;
     transition: transform 1s;
-    transform: translateX(-142px);
+    transform: translateX(-146px);
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     z-index: 1;
@@ -902,7 +902,7 @@ legend {
     }
 }
 
-@media (min-width: 9px) {
+@media (min-width: 900px) {
     #contact-us {
         height: 162vh;
     }
@@ -913,9 +913,10 @@ legend {
 
     /*contact page - location of form*/
     .contact-box {
-
         left: -6%;
         width: 349px;
+        height: 69%;
+        top: 38%;
     }
 
     #name {
@@ -939,16 +940,11 @@ legend {
         transform: rotate(90deg);
     }
 
+
     #slide {
-
         width: 249px;
-        height: 299px;
-        transition: transform 1s;
-        transform: translateX(-200px);
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
-        top: 111%;
-
+        top: 97%;
+        left: -13%;
     }
 
     #toggle-checked:checked~a #bbblogo {
