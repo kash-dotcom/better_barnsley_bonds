@@ -72,11 +72,11 @@ header {
 /* Styling for the Better Barnsley Bond*/
 
 #bbblogo {
-    height: auto;
-    width: 40vw;
+    height: 71px;
+    width: auto;
     position: absolute;
-    top: -58%;
-    left: 151%;
+    top: -70%;
+    left: 130%;
     object-fit: fill;
     transition: 5s;
     transform: translateX(0);
@@ -770,7 +770,7 @@ legend {
 @media (min-height:320px) {
 
     #contact-us{
-        height: 204vh;
+        height: 81vh;
     }
     #bbblogo {
             max-height: 43px;
