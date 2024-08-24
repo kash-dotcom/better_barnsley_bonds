@@ -10,7 +10,10 @@ The website is aimed at community groups and organisations who would be familiar
 * They will have multiple ways to navigate through the site through buttons at the bottom of the page and or the sticky navigation.
 The logo also activates the menu
 
+# Features
 
+## Features left to develop
+The menu 
 
 ## Colour Palette
 * The majority of the design black and white. Using the gold in the logo and the purple as accents. 

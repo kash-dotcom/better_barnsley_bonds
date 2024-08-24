@@ -16,7 +16,7 @@
 /* General Styles */
 body {
     min-height: 100vh;
-   /* display: flex;
+    /* display: flex;
     flex-direction: column;*/
     color: whitesmoke;
 
@@ -49,23 +49,34 @@ header {
 #toggle-checked:checked~a #bbblogo {
     transform: translateX(151px);
 }
-/*toggle label for side menu and logo movement*/
-#menu-toggle {
-    display: none;
-    
-}
 
-#menu-toggle:checked~img {
-    transform: translateX(151px);
+.slide {
+    position: absolute;
+    width: 143px;
+    height: 175px;
+    background-color: #5a3859;
+    color: #222222;
+    transition: transform 1s;
+    transform: translateX(-147px);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+    top: 111%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 /* Styling for the Better Barnsley Bond*/
+
 #bbblogo {
     height: auto;
-    width: 47vw;
+    width: 26vw;
     position: absolute;
     top: -43%;
-    left: 179px;
+    left: 144%;
     object-fit: fill;
     transition: 5s;
     transform: translateX(0);
@@ -77,10 +88,9 @@ header {
     position: absolute;
     width: 143px;
     height: 175px;
-    background-color: #5a3859;
-    color: #222222;
+    background-color: #222222;
     transition: transform 1s;
-    transform: translateX(-113px);
+    transform: translateX(-142px);
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     z-index: 1;
@@ -96,6 +106,8 @@ header {
 /*Menu header*/
 #slide h2 {
     color: whitesmoke;
+    display: inline-flex;
+    align-items: center;
     position: fixed;
     top: 13%;
     left: 43%;
@@ -114,7 +126,7 @@ header {
     font-size: 1rem;
     padding: 8px;
     align-self: center;
-    
+
 }
 
 /*BBB logo link*/
@@ -224,6 +236,7 @@ h4 {
     align-self: center;
     font-size: small;
 }
+
 .footer-content {
     display: flex;
     justify-content: center;
@@ -239,7 +252,7 @@ h4 {
     padding: 5px;
     border-top-color: whitesmoke;
     border-top-style: inset;
-    
+
 }
 
 .legal {
@@ -272,18 +285,20 @@ h4 {
     text-wrap: wrap;
     height: 100%;
     width: 100%;
-    
+
 }
 
 .socials li {
     padding: 10px;
-    list-style-type:none;
+    list-style-type: none;
 }
+
 .copyright {
     display: flex;
     background-color: #222222;
 }
-.copyright p { 
+
+.copyright p {
     align-self: center;
     font-size: small;
 }
@@ -302,7 +317,7 @@ h4 {
     background-color: whitesmoke;
     color: #222222;
     width: 100%;
-    
+
 }
 
 .about-us {
@@ -315,6 +330,7 @@ h4 {
     display: flex;
     flex-direction: column;
 }
+
 .looking-for {
     display: flex;
     flex-direction: column;
@@ -323,9 +339,9 @@ h4 {
     align-items: center;
 
 }
- 
+
 .about-us-links {
-    
+
     background: #5a3859;
     color: whitesmoke;
     padding: 4px 40px;
@@ -339,20 +355,23 @@ h4 {
     margin-left: 53px;
 }
 
-.about-us-ul li  {
+.about-us-ul li {
     background-color: whitesmoke;
     color: #222222;
     padding: 9px 0px 0px 8px;
     list-style-type: square;
 }
+
 #click-me {
     margin-bottom: 41px;
     margin-top: 25px;
 }
+
 .text {
     display: flex;
     flex-direction: column;
 }
+
 .videos {
     align-self: center;
     position: relative;
@@ -376,11 +395,12 @@ h4 {
     flex-direction: column;
 }
 
-.images img{
+.images img {
     max-width: 241px;
     height: auto;
     align-self: center;
 }
+
 .about-us p {
     background-color: whitesmoke;
     color: #222222;
@@ -424,12 +444,14 @@ h4 {
 .panel-logo-div {
     align-self: center;
 }
+
 .container h1 {
     color: #222222;
     padding: 31px 31px 13px 50px;
     align-self: center;
 }
-.enterprising-barnsley{
+
+.enterprising-barnsley {
     display: flex;
     flex-direction: column;
     padding: 31px 31px 13px 50px;
@@ -442,12 +464,12 @@ h4 {
 }
 
 .enterprising-barnsley a {
-background: #5a3859;
-color: whitesmoke;
-padding: 0 7px 5px;
-align-self: center;
-margin-bottom: 26px;
-margin-top: 26px;
+    background: #5a3859;
+    color: whitesmoke;
+    padding: 0 7px 5px;
+    align-self: center;
+    margin-bottom: 26px;
+    margin-top: 26px;
 
 }
 
@@ -461,10 +483,11 @@ element.style {
     color: #222222;
     list-style-type: square;
 }
+
 .moving-foward {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 /* ---------------------------------------PROJECTS-----------------------------------*/
@@ -516,6 +539,7 @@ element.style {
     border-top-color: whitesmoke;
     border-top-style: inset;
 }
+
 /*break between paragraph and gallery */
 #introduction {
     padding: 0px 50px 21px 50px;
@@ -557,11 +581,12 @@ element.style {
     align-items: center;
     align-self: center;
 }
- /* ---------------------------------------CONTACT-----------------------------------*/
+
+/* ---------------------------------------CONTACT-----------------------------------*/
 
 /*Section id - background */
 
- #contact-us {
+#contact-us {
     background-image: url('../images/hand_sappling_expanded.png');
     background-size: cover;
     background-color: #222222;
@@ -571,7 +596,7 @@ element.style {
     justify-content: center;
     width: 100vw;
     height: 130vh;
-    
+
 }
 
 /* Box around the form */
@@ -596,7 +621,7 @@ element.style {
 
 /*Tagline for the form*/
 .contact-box p {
-    background-color:transparent;
+    background-color: transparent;
     margin-left: -3px;
 }
 
@@ -604,7 +629,7 @@ element.style {
 .contact-box form {
     background-color: transparent;
     border-left: 10px;
-    
+
 }
 
 /*Controls the input boxes of the form*/
@@ -618,7 +643,7 @@ element.style {
     margin-bottom: 10px;
     margin-left: -3px;
     margin-top: 11px;
-    
+
 }
 
 /*Controls the labels of the form*/
@@ -649,8 +674,9 @@ element.style {
 ::placeholder {
     color: whitesmoke;
     font-size: medium;
-    
+
 }
+
 /*message box*/
 #message {
     background-color: transparent;
@@ -700,439 +726,445 @@ legend {
         border-radius: 10px;
     }
 
-/*Controls the input boxes of the form*/
-.contact-box input {
-    height: 30.2px;
-    width: 295px;
-    padding: 10px;
-    border: none;
-    border-bottom: 1px solid whitesmoke;
-    background: transparent;
-    margin-bottom: 10px;
-    margin-left: -3px;
-    margin-top: 11px;
-    
-}
-/*message box*/
-#message {
-    background-color: transparent;
-    padding-left: 10px;
-    padding-top: 5px;
-    margin-left: -2.2px;
-    width: 295px;
-}
-/* Submit button */
-.contact-box form button {
-    display: block;
-    position: relative;
-    width: 295px;
-    margin-bottom: 10px;
-    background-color: #5a3859;
-    padding: 5px;
-    border-radius: 5px;
-    color: whitesmoke;
-    font-size: medium;
-    box-shadow: 0 0 8px rgba(245, 245, 245, 0.2);
-}
-/*size of boxes*/
-.choice input {
-    height: 17.2px;
-    width: 35px;
-    border: none;
-}
+    /*Controls the input boxes of the form*/
+    .contact-box input {
+        height: 30.2px;
+        width: 295px;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid whitesmoke;
+        background: transparent;
+        margin-bottom: 10px;
+        margin-left: -3px;
+        margin-top: 11px;
+
+    }
+
+    /*message box*/
+    #message {
+        background-color: transparent;
+        padding-left: 10px;
+        padding-top: 5px;
+        margin-left: -2.2px;
+        width: 295px;
+    }
+
+    /* Submit button */
+    .contact-box form button {
+        display: block;
+        position: relative;
+        width: 295px;
+        margin-bottom: 10px;
+        background-color: #5a3859;
+        padding: 5px;
+        border-radius: 5px;
+        color: whitesmoke;
+        font-size: medium;
+        box-shadow: 0 0 8px rgba(245, 245, 245, 0.2);
+    }
+
+    /*size of boxes*/
+    .choice input {
+        height: 17.2px;
+        width: 35px;
+        border: none;
+    }
 
 }
 
 @media (min-width: 520px) {
-  
+
     #bbblogo {
         max-height: 60px;
         width: auto;
-        top: -51%;
-    }
-}
-
-
-@media (min-width:620px) {
-/*About-us page*/
-
-.apply {
-    display: flex;
-    align-self: center;
-    flex-direction: row;
-}
-
-.meet-panel {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.meet-panel-p {
-    flex-grow: 2;
-}
-
-.meet-panel > p {
-    background-color: whitesmoke;
-    color: #222222;
-    padding: 31px;
-    padding: 0px 31px 20px 38px;
-}
-
-.panel-logo {
-    max-height: 130px;
-    max-width: 200px;
-    flex-grow: 1;
-    padding-left: 41px;
-}
-
-.eligible {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    
-}
-}
-
-/*Past Projects - 657px*/
-@media screen and (min-width: 657px) {
-    .text-wrap {
-        display: flex;
-        width: 330px;
-        height: 100px;
-        background-color: #222222;
-        word-break: break-all;
-        margin: 44px -36px;
-        padding-block: 13px;
-        text-align: center;
-        text-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-
-/*Tablet - 741px*/
-@media screen and (min-width: 741px) {
-/* contact us page - image breaking point */
-
-h1 {
-    font-size: 4vw;
-}
-
-h2 {
-    font-size: 3vw;
-    word-break: normal;
-}
-
-p {
-    font-size: 2vw;
-    word-break: normal;
-}
-
-li {
-    font-size: 2vw;
-}
-
-strong {
-    font-size: 2.5vw;
-}
-
-#contact-us {
-    background-image: url('../images/hand_sappling_expanded.png');
-    background-size: cover;
-    background-color: #222222;
-    background-position: center;
-    padding-bottom: 45px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-}
-    .contact-box {
-        position: relative;
-        top: 338px;
-        left: -1%;
-        transform: translate(-50%, -50%);
-        width: 348px;
-        height: 635px;
-        padding: 25px 28px;
-        box-sizing: border-box;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-    }
-    /*About page links*/
-    .about-us-links {
-        background: #5a3859;
-        color: whitesmoke;
-        padding: 4px 40px;
-        align-self: center;
-        margin-bottom: 26px;
-        margin-top: 26px;
-        font-size: 2vw;
-    }
-    .images img {
-        max-width: 313px;
-        height: auto;
-        align-self: center;
-    }
-/*message box*/
-#message {
-    background-color: transparent;
-    padding-left: 10px;
-    padding-top: 5px;
-    margin-left: -2.2px;
-    width: 295px;
-}
-/* Submit button */
-.contact-box form button {
-    display: block;
-    position: relative;
-    width: 295px;
-    margin-bottom: 10px;
-    background-color: #5a3859;
-    padding: 5px;
-    border-radius: 5px;
-    color: whitesmoke;
-    font-size: medium;
-    box-shadow: 0 0 8px rgba(245, 245, 245, 0.2);
-}
-/*size of boxes*/
-.choice input {
-    height: 17.2px;
-    width: 35px;
-    border: none;
-}
-.looking-for {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-}
-/*Laptop - 1024px*/
-@media (min-width: 1024px) {
-
-   /*contact page - location of form*/
-    .contact-box {
-        position: relative;
-        top: 338px;
-        left: -6%;
-        transform: translate(-50%, -50%);
-        width: 349px;
-        height: 635px;
-        padding: 25px 28px;
-        box-sizing: border-box;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
+        top: -43%;
+        left: 139%;
     }
 
-    #name {
-        font-size: 10vw;
+}
+    @media (min-width:620px) {
+        /*About-us page*/
+
+        .apply {
+            display: flex;
+            align-self: center;
+            flex-direction: row;
+        }
+
+        .meet-panel {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .meet-panel-p {
+            flex-grow: 2;
+        }
+
+        .meet-panel>p {
+            background-color: whitesmoke;
+            color: #222222;
+            padding: 31px;
+            padding: 0px 31px 20px 38px;
+        }
+
+        .panel-logo {
+            max-height: 130px;
+            max-width: 200px;
+            flex-grow: 1;
+            padding-left: 41px;
+        }
+
+        .eligible {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+
+        }
     }
 
-   /*about-us*/
-    #bbblogo {
-        max-height: 46px;
-        width: auto;
+    /*Past Projects - 657px*/
+    @media screen and (min-width: 657px) {
+        .text-wrap {
+            display: flex;
+            width: 330px;
+            height: 100px;
+            background-color: #222222;
+            word-break: break-all;
+            margin: 44px -36px;
+            padding-block: 13px;
+            text-align: center;
+            text-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
-    #slide h2 {
-        color: whitesmoke;
-        position: fixed;
-        top: 16%;
-        left: 55%;
-        font-weight: 700;
-        text-align: left;
-        padding: 20px 0 0 60px;
-        pointer-events: none;
-        padding-bottom: 27px;
-        transform: rotate(90deg);
+
+    /*Tablet - 741px*/
+    @media screen and (min-width: 741px) {
+        /* contact us page - image breaking point */
+
+        h1 {
+            font-size: 4vw;
+        }
+
+        h2 {
+            font-size: 3vw;
+            word-break: normal;
+        }
+
+        p {
+            font-size: 2vw;
+            word-break: normal;
+        }
+
+        li {
+            font-size: 2vw;
+        }
+
+        strong {
+            font-size: 2.5vw;
+        }
+
+        #contact-us {
+            background-image: url('../images/hand_sappling_expanded.png');
+            background-size: cover;
+            background-color: #222222;
+            background-position: center;
+            padding-bottom: 45px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .contact-box {
+            position: relative;
+            top: 338px;
+            left: -1%;
+            transform: translate(-50%, -50%);
+            width: 348px;
+            height: 635px;
+            padding: 25px 28px;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        /*About page links*/
+        .about-us-links {
+            background: #5a3859;
+            color: whitesmoke;
+            padding: 4px 40px;
+            align-self: center;
+            margin-bottom: 26px;
+            margin-top: 26px;
+            font-size: 2vw;
+        }
+
+        .images img {
+            max-width: 313px;
+            height: auto;
+            align-self: center;
+        }
+
+        /*message box*/
+        #message {
+            background-color: transparent;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: -2.2px;
+            width: 295px;
+        }
+
+        /* Submit button */
+        .contact-box form button {
+            display: block;
+            position: relative;
+            width: 295px;
+            margin-bottom: 10px;
+            background-color: #5a3859;
+            padding: 5px;
+            border-radius: 5px;
+            color: whitesmoke;
+            font-size: medium;
+            box-shadow: 0 0 8px rgba(245, 245, 245, 0.2);
+        }
+
+        /*size of boxes*/
+        .choice input {
+            height: 17.2px;
+            width: 35px;
+            border: none;
+        }
+
+        .looking-for {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: stretch;
+            align-items: center;
+            flex-direction: row-reverse;
+        }
     }
 
-    #slide {
-        position: absolute;
-        width: 249px;
-        height: 299px;
-        background-color: #5a3859;
-        color: #222222;
-        transition: transform 1s;
-        transform: translateX(-200px);
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
-        top: 111%;
-     
+    /*Laptop - 1024px*/
+    @media (min-width: 1024px) {
+
+        /*contact page - location of form*/
+        .contact-box {
+            position: relative;
+            top: 338px;
+            left: -6%;
+            transform: translate(-50%, -50%);
+            width: 349px;
+            height: 635px;
+            padding: 25px 28px;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        #name {
+            font-size: 10vw;
+        }
+
+        /*about-us*/
+        #bbblogo {
+            max-height: 46px;
+            width: auto;
+        }
+
+        #slide h2 {
+            top: 16%;
+            left: 55%;
+            font-weight: 700;
+            text-align: left;
+            padding: 20px 0 0 60px;
+            pointer-events: none;
+            padding-bottom: 27px;
+            transform: rotate(90deg);
+        }
+
+        #slide {
+
+            width: 249px;
+            height: 299px;
+            transition: transform 1s;
+            transform: translateX(-200px);
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            top: 111%;
+
+        }
+
+        #toggle-checked:checked~a #bbblogo {
+            transform: translateX(191px);
+        }
+
+        .about-us p {
+            padding: 0 31px 20px 75px;
+        }
+
+        .looking-for {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: stretch;
+            align-items: center;
+            flex-direction: row-reverse;
+        }
+
+        .looking-for-sec {
+            display: flex;
+        }
+
+        .about-us h1 {
+            padding: 31px 31px 13px 31px;
+            align-self: center;
+            border-top: #222222;
+            border-bottom: #222222;
+
+        }
+
+        #dropdown {
+            position: relative;
+            left: -28px;
+        }
+
+        #slide ul li a {
+
+            font-size: 2.5vw;
+        }
+
+        .apply {
+            display: flex;
+            align-self: center;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .images img {
+            max-width: 442px;
+            height: auto;
+            align-self: center;
+        }
+
+        .apply-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            background-color: whitesmoke;
+            width: 100%;
+        }
+
+        /* Past Projects photos*/
+        .past-projects-photos {
+            height: 401px;
+            width: auto;
+            padding-left: 0;
+            padding-top: 16px;
+        }
     }
 
-    #toggle-checked:checked~a #bbblogo {
-        transform: translateX(191px);
+    @media (min-width: 1200px) {
+
+        #slide {
+            height: 193px;
+        }
+
+        #slide ul li a {
+            font-size: 2.2vw;
+        }
     }
 
-    .about-us p {
-        padding: 0 31px 20px 75px;
+    @media (min-width: 1440px) {
+        .panel-logo {
+            max-height: 130px;
+            max-width: 24vw;
+            flex-grow: 1;
+            padding-left: 41px;
+        }
+
+        .images img {
+            max-width: 635px;
+            height: auto;
+            align-self: center;
+        }
+
+        #bbblogo {
+            max-height: 117px;
+            width: auto;
+            position: absolute;
+            top: -79%;
+            left: 110%;
+        }
+
+        #slide {
+            position: absolute;
+            width: 249px;
+            height: 299px;
+        }
+
+        input:checked~#slide {
+            transform: translateX(0);
+        }
+
+        .toggle {
+            height: 52px;
+            width: 52px;
+            top: 12px;
+            left: 33px;
+
+        }
+
+        .toggle .common {
+            height: 5px;
+            width: 46px;
+        }
     }
 
-    .looking-for {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: stretch;
-        align-items: center;
-        flex-direction: row-reverse;
+    @media (min-width: 1500px) {
+        #slide li {
+            padding: 8px 8px 8px 37px;
+        }
     }
 
-    .looking-for-sec {
-        display: flex;
+
+    @media (min-width: 2560px) {
+        .past-projects-photos {
+            height: 871px;
+            width: auto;
+            padding-left: 0;
+            padding-top: 16px;
+        }
+
+        .toggle {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            top: 12px;
+            left: 33px;
+            z-index: 2;
+            cursor: pointer;
+            border-radius: 2px;
+            background-color: #2c2b2c;
+            box-shadow: 0 0 10px rgba(245, 245, 245, 0.3);
+        }
+
+        .toggle .common {
+            position: absolute;
+            height: 11px;
+            width: 74px;
+            background-color: whitesmoke;
+            border-radius: 50px;
+            transition: 0.3s ease;
+        }
+
+
     }
-
-    .about-us h1 {
-        background-color: whitesmoke;
-        color: #222222;
-        padding: 31px 31px 13px 31px;
-        align-self: center;
-        border-top: #222222;
-        border-bottom: #222222;
-    
-    }
-    #dropdown {
-        position: relative;
-        left: -28px;
-    }
-
-    #slide ul li a {
-
-        font-size: 2.5vw;
-    }
-
-    .apply {
-        display: flex;
-        align-self: center;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .images img {
-        max-width: 442px;
-        height: auto;
-        align-self: center;
-    }
-
-    .apply-container {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: column;
-        background-color: whitesmoke;
-        width: 100%;
-    }
-/* Past Projects photos*/
-.past-projects-photos {
-    height: 401px;
-    width: auto;
-    padding-left: 0;
-    padding-top: 16px;
-}
-}
-
-@media (min-width: 1200px) {
-
-    #slide {
-        height: 193px;
-    }
-
-#slide ul li a {
-    font-size: 2.2vw;
-}
-}
-
-@media (min-width: 1440px) {
-.panel-logo {
-    max-height: 130px;
-    max-width: 24vw;
-    flex-grow: 1;
-    padding-left: 41px;
-}
-
-.images img {
-    max-width: 635px;
-    height: auto;
-    align-self: center;
-}
-#bbblogo {
-    max-height: 130px;
-    width: auto;
-    position: absolute;
-    top: -115%;
-    left: 290px;
-    object-fit: fill;
-    transition: 5s;
-    transform: translateX(0);
-}
-
-#slide {
-    position: absolute;
-    width: 249px;
-    height: 299px;
-}
-
-input:checked~#slide {
-    transform: translateX(0);
-}
-.toggle {
-    height: 52px;
-    width: 52px;
-    top: 12px;
-    left: 33px;
-
-}
-
-.toggle .common {
-    height: 5px;
-    width: 46px;
-}
-}
-
-@media (min-width: 1500px) {
-#slide li {
-    padding: 8px 8px 8px 37px;
-}
-}
-
-/* */
-@media (min-width: 2560px) {
-.past-projects-photos {
-    height: 871px;
-    width: auto;
-    padding-left: 0;
-    padding-top: 16px;
-}
-
-.toggle {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    top: 12px;
-    left: 33px;
-    z-index: 2;
-    cursor: pointer;
-    border-radius: 2px;
-    background-color: #2c2b2c;
-    box-shadow: 0 0 10px rgba(245, 245, 245, 0.3);
-}
-
-.toggle .common {
-    position: absolute;
-    height: 11px;
-    width: 74px;
-    background-color: whitesmoke;
-    border-radius: 50px;
-    transition: 0.3s ease;
-}
-
-
-}
-
