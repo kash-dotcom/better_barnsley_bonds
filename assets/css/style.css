@@ -716,7 +716,6 @@ legend {
     .contact-box {
         left: 46%;
         width: 357px;
-
     }
 
     /*Controls the input boxes of the form*/
@@ -761,7 +760,7 @@ legend {
     #bbblogo {
         max-height: 60px;
         width: auto;
-        top: -43%;
+        top: -64%;
         left: 139%;
     }
 
@@ -900,6 +899,12 @@ legend {
         align-items: center;
         flex-direction: row-reverse;
     }
+    #bbblogo {
+        max-height: 60px;
+        width: auto;
+        top: -77%;
+        left: 139%;
+    }
 }
 
 @media (min-width: 900px) {
@@ -925,7 +930,7 @@ legend {
 
     /*about-us*/
     #bbblogo {
-        max-height: 46px;
+        max-height: 81px;
         width: auto;
     }
 
@@ -1049,18 +1054,19 @@ legend {
         max-height: 117px;
         width: auto;
         position: absolute;
-        top: -79%;
-        left: 110%;
+        top: -47%;
+        left: 183%;
     }
+    
 
     #slide {
         position: absolute;
-        width: 249px;
+        width: 271px;;
         height: 299px;
     }
 
     input:checked~#slide {
-        transform: translateX(0);
+        transform: translateX(185px);
     }
 
     .toggle {
@@ -1084,7 +1090,37 @@ legend {
 }
 
 
+@media (min-width: 2140px) {
+    input:checked~#slide {
+        transform: translateX(315px);
+}
+#slide {
+    position: absolute;
+    width: 459px;
+    height: 316px;
+    top: 147%;
+    left: -16%;
+}
+
+#slide h2 {
+    padding: 20px 0 0 125px;
+}
+#dropdown {
+    position: relative;
+    left: -78px;
+}
+
+#bbblogo {
+    max-height: 217px;
+    top: -139%;
+    left: 144%;
+}
+}
+
 @media (min-width: 2560px) {
+
+    
+    }
     .past-projects-photos {
         height: 871px;
         width: auto;
