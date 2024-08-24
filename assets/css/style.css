@@ -73,10 +73,10 @@ header {
 
 #bbblogo {
     height: auto;
-    width: 26vw;
+    width: 40vw;
     position: absolute;
-    top: -43%;
-    left: 144%;
+    top: -58%;
+    left: 151%;
     object-fit: fill;
     transition: 5s;
     transform: translateX(0);
@@ -760,11 +760,27 @@ legend {
     #bbblogo {
         max-height: 60px;
         width: auto;
-        top: -64%;
+        top: -57%;
         left: 139%;
     }
 
 }
+
+
+@media (min-height:320px) {
+
+    #contact-us{
+        height: 204vh;
+    }
+    #bbblogo {
+            max-height: 43px;
+            top: -32%;
+            left: 139%;
+        }
+
+}
+    
+
 
 @media (min-width:620px) {
     /*About-us page*/
@@ -902,7 +918,7 @@ legend {
     #bbblogo {
         max-height: 60px;
         width: auto;
-        top: -77%;
+        top: -63%;
         left: 139%;
     }
 }
