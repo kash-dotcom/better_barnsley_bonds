@@ -587,7 +587,7 @@ element.style {
 /*Section id - background */
 
 #contact-us {
-    background-image: url('../images/hand_sappling_expanded.png');
+    background-image: url('../images/hand_sappling_expanded.webp');
     background-size: cover;
     background-color: #222222;
     padding-bottom: 45px;
@@ -902,7 +902,7 @@ legend {
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 9px) {
     #contact-us {
         height: 162vh;
     }
