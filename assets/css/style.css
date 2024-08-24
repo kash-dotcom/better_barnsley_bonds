@@ -902,7 +902,7 @@ legend {
     }
 }
 
-@media (min-width: 915px) {
+@media (min-width: 900px) {
     #contact-us {
         height: 162vh;
     }
