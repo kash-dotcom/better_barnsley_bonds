@@ -1118,6 +1118,15 @@ legend {
 }
 
 @media (min-width: 2560px) {
+    #slide {
+        width: 664px;
+    }
+
+    #slide h2 {
+        padding: 20px 0 0 244px;
+        top: -3%;
+        left: 55%;
+    }
 
     .past-projects-photos {
         height: 871px;
@@ -1147,5 +1156,11 @@ legend {
         border-radius: 50px;
         transition: 0.3s ease;
     }
-
+    #slide {
+        position: absolute;
+        width: 600px;
+        height: 316px;
+        top: 147%;
+        left: -16%;
+    }
 }
