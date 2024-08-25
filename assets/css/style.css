@@ -741,6 +741,9 @@ legend {
     #contact-us{
         height: 81vh;
     }
+    #bbblogo {
+        left: 80%;
+    }
 }
 
 @media (min-width:620px) {
