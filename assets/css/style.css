@@ -63,7 +63,7 @@ header {
     position: relative;
     left: 39%;
     align-self: center;
-    pointer-events: all;
+    cursor: pointer;
 }
 
 .nav-toggle-label {
@@ -323,7 +323,7 @@ h4 {
 
     background: #5a3859;
     color: whitesmoke;
-    padding: 4px 40px;
+    padding: 4px 14px;
     align-self: center;
     margin-bottom: 26px;
     margin-top: 26px;
@@ -399,6 +399,12 @@ h4 {
     align-self: center;
 }
 
+.eligible {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
 .apply-container {
     display: flex;
     flex-direction: column;
@@ -445,7 +451,7 @@ h4 {
 .enterprising-barnsley a {
     background: #5a3859;
     color: whitesmoke;
-    padding: 0 7px 5px;
+    padding: 4px 14px;
     align-self: center;
     margin-bottom: 26px;
     margin-top: 26px;
@@ -839,7 +845,7 @@ legend {
     .about-us-links {
         background: #5a3859;
         color: whitesmoke;
-        padding: 4px 40px;
+        padding: 4px 14px;
         align-self: center;
         margin-bottom: 26px;
         margin-top: 26px;
