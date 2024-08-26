@@ -269,15 +269,15 @@ h4 {
 }
 
 /* ---------------------------------------ABOUT US-----------------------------------*/
-/*index.html- About us*/
+ /*index.html- About us*/
 
+ /*generic container for all elements on the main section of the about us page*/
 .container {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
     color: #222222;
     width: 100%;
-
 }
 
 .about-us {
@@ -285,12 +285,21 @@ h4 {
     flex-direction: column;
     background-color: whitesmoke;
 }
+/*generic headings styling*/
+.container h1 {
+    background-color: whitesmoke;
+    color: #222222;
+    padding: 31px 31px 13px 50px;
+    align-self: center;
+}
 
+/*about-us section - header & paragraph*/
 .about-us-sec {
     display: flex;
     flex-direction: column;
 }
 
+/*what are we looking for -paragraph and photo*/
 .looking-for {
     display: flex;
     flex-direction: column;
@@ -300,6 +309,7 @@ h4 {
 
 }
 
+/* All links on the about us page*/
 .about-us-links {
 
     background: #5a3859;
@@ -310,11 +320,11 @@ h4 {
     margin-top: 26px;
 }
 
-
+/*all unordered lists on the about-us page*/
 .about-us-ul {
     margin-left: 53px;
 }
-
+/*styling for unordered lists*/
 .about-us-ul li {
     background-color: whitesmoke;
     color: #222222;
@@ -322,16 +332,13 @@ h4 {
     list-style-type: square;
 }
 
-#click-me {
-    margin-bottom: 46px;
-    margin-top: 16px;
-}
-
+/*Generic container for meet the panel text*/
 .text {
     display: flex;
     flex-direction: column;
 }
 
+/*You Tube video container*/
 .videos {
     align-self: center;
     position: relative;
@@ -340,6 +347,7 @@ h4 {
     height: 100%;
 }
 
+/*styling for Youtube video*/
 .videos iframe {
     position: absolute;
     top: 0;
@@ -348,6 +356,7 @@ h4 {
     height: 100%;
 }
 
+/*generic images div*/
 .images {
     display: flex;
     background-color: whitesmoke;
@@ -355,80 +364,61 @@ h4 {
     flex-direction: column;
 }
 
+/*generic images formatting*/
 .images img {
     max-width: 241px;
     height: auto;
     align-self: center;
 }
 
-.about-us p {
-    background-color: whitesmoke;
-    color: #222222;
-    padding: 31px;
-    padding: 0 31px 20px 50px;
-}
-
-.about-us h1 {
-    background-color: whitesmoke;
-    color: #222222;
-    padding: 31px 31px 13px 50px;
-}
-
+/*Who can apply container*/
 .apply {
     display: flex;
     flex-direction: column;
     align-self: center;
 }
 
+/*Eligibility container*/
 .eligible {
     display: flex;
     flex-direction: column;
     align-self: center;
 }
 
-.apply-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.about-us-links h1 {
-    color: #222222;
-    padding: 31px 31px 13px 50px;
-}
-
 /* Meet the panel - */
+
+/*Meet the panel generic div styling*/
 .meet-panel {
     display: flex;
     flex-direction: column-reverse;
 }
 
+/*formatting for the panel logos*/
 .panel-logo {
     max-height: 130px;
     max-width: 200px;
 }
 
+/*div for logo of the panel*/
 .panel-logo-div {
     align-self: center;
 }
 
-.container h1 {
-    color: #222222;
-    padding: 31px 31px 13px 50px;
-    align-self: center;
-}
-
+/*additional help with Enterpising Barnsley div*/
 .enterprising-barnsley {
     display: flex;
     flex-direction: column;
     padding: 31px 31px 13px 50px;
 }
 
+/*paragraph about those requiring additional support*/
 .enterprising-barnsley p {
     color: #222222;
     align-self: center;
     padding: 0px 9px 4px 2px;
 }
 
+/*stying for enterpising barnsley link*/
 .enterprising-barnsley a {
     background: #5a3859;
     color: whitesmoke;
@@ -436,59 +426,59 @@ h4 {
     align-self: center;
     margin-bottom: 26px;
     margin-top: 26px;
-
 }
 
+/* Engaging text to encourage moving to next page*/
 strong {
     background-color: whitesmoke;
     color: #222222;
     padding: 16px 31px 10px 50px;
 }
 
-element.style {
-    color: #222222;
-    list-style-type: square;
-}
-
+/*Moving to the next page div*/
 .moving-foward {
     display: flex;
     flex-direction: column;
 
 }
+/*hyper-link to next page*/
+#click-me {
+    margin-bottom: 46px;
+    margin-top: 16px;
+}
 
 /* ---------------------------------------PROJECTS-----------------------------------*/
 
 /*past projects page */
-
-.past-projects ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.past-projects ul li {
-    height: 50vh;
-    flex-grow: 1;
-    padding-left: 0;
-}
-
-.past-projects ul li img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
-}
-
 .past-projects {
     background-color: #222222;
     display: flex;
     flex-direction: column;
 }
 
+/*Container for projects*/
 .projects {
     display: flex;
     flex-direction: column;
 }
+.past-projects ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* styling for image and text*/
+.past-projects ul li {
+    height: 50vh;
+    flex-grow: 1;
+    padding-left: 0;
+}
 
+/*generic styling for photographs*/
+.past-projects-photos {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
 
 /* To create a line between the header and the heading*/
 
@@ -503,10 +493,7 @@ element.style {
     padding: 0px 50px 21px 18px;
 }
 
-/*Quotation & context */
-
-
-/*break-point - table*/
+/*Generic styling for text*/
 
 .text-wrap {
     display: flex;
@@ -525,14 +512,7 @@ element.style {
     justify-content: center;
 }
 
-
-.projects-span {
-    background-color: #222222;
-    margin-left: -99px;
-    margin-top: 45px;
-    padding: 12px;
-}
-
+/*link to next page*/
 .text-wrap-btn {
     display: flex;
     width: 97%;
@@ -676,12 +656,28 @@ legend {
 }
 
 /* ---------------------------------------MEDIA QUERY-----------------------------------*/
+@media (min-height:320px) {
 
+    #contact-us {
+        height: 182vh;
+    }
+}
+
+@media (min-height:320px) {
+#contact-us {
+    height: 112vh;
+}
+
+}
 /*Mobile L - 412px*/
 @media screen and (min-width: 412px) {
     .contact-box {
         left: 46%;
         width: 357px;
+    }
+
+    #contact-us {
+        height: 83vh;
     }
 
     /*Controls the input boxes of the form*/
@@ -721,20 +717,6 @@ legend {
 
 }
 
-@media (min-height:320px) {
-
-    #contact-us {
-        height: 81vh;
-    }
-}
-
-/*
-@media (min-width:544px) {
-    .text-wrap {
-        width: 330px;
-        word-break: normal;
-        margin: 44px -36px;
-    }*/
 
 
 @media (min-width:620px) {
@@ -817,7 +799,7 @@ legend {
     #contact-us {
 
         width: 100vw;
-        height: 195vh;
+        height: 69vh;
 
     }
 
