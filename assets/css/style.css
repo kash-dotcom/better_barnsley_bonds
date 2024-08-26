@@ -50,7 +50,7 @@ header {
 }
 
 /*moves the bbb logo when the menu is selected*/
-#toggle-checked:checked~ #bbblogo {
+#toggle-checked:checked~#bbblogo {
     transform: translateX(151px);
 }
 
@@ -61,7 +61,7 @@ header {
     height: 63%;
     width: auto;
     position: relative;
-    left: 39%;
+    left: 51%;
     align-self: center;
     cursor: pointer;
 }
@@ -196,6 +196,7 @@ main {
     background-color: whitesmoke;
 
 }
+
 /* ---------------------------------------FOOTER-----------------------------------*/
 /** Footer Logos */
 
@@ -207,7 +208,7 @@ main {
 
 h4 {
     align-self: center;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 .barnsley-council ul li {
@@ -542,17 +543,18 @@ element.style {
     font-size: medium;
     justify-content: center;
 }
-    background-color: #222222;
-    word-break: normal;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: 0px;
-    text-align: center;
-    text-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    font-size: medium;
-    justify-content: center;
+
+background-color: #222222;
+word-break: normal;
+margin-top: 0px;
+margin-left: 0px;
+padding: 0px;
+text-align: center;
+text-wrap: wrap;
+flex-direction: column;
+align-items: center;
+font-size: medium;
+justify-content: center;
 }
 
 .projects-span {
@@ -752,14 +754,11 @@ legend {
 
 @media (min-height:320px) {
 
-    #contact-us{
+    #contact-us {
         height: 81vh;
     }
-    #bbblogo {
-        left: 58%;
-        height: 44%;
-    }
 }
+
 /*
 @media (min-width:544px) {
     .text-wrap {
@@ -767,7 +766,8 @@ legend {
         word-break: normal;
         margin: 44px -36px;
     }*/
-}
+
+
 @media (min-width:620px) {
     /*About-us page*/
 
@@ -917,6 +917,7 @@ legend {
     #contact-us {
         height: 132vh;
     }
+
     /*contact page - location of form*/
     .contact-box {
         left: -6%;
@@ -1014,21 +1015,24 @@ legend {
     .text-wrap-btn {
         margin: -26px -22px 15px -13px;
     }
+
     .past-projects-photos {
         height: 401px;
         width: auto;
         padding-left: 0;
         padding-top: 16px;
     }
+
     .past-projects ul li {
         height: 72vh;
 
     }
 }
+
 @media (min-width: 1100px) {
-.text-wrap-btn {
-    margin: -26px -22px 40px -13px;
-}
+    .text-wrap-btn {
+        margin: -26px -22px 40px -13px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -1040,20 +1044,23 @@ legend {
     #slide ul li a {
         font-size: 2.2vw;
     }
+
     .text-wrap-btn {
         margin: -26px -22px 52px -13px;
     }
 }
 
 @media (min-width: 1300px) {
-.text-wrap-btn {
-    margin: -26px -22px 61px -13px;
+    .text-wrap-btn {
+        margin: -26px -22px 61px -13px;
+    }
 }
-}
+
 @media (min-width: 1440px) {
     #bbblogo {
         left: 59%;
     }
+
     .panel-logo {
         max-height: 130px;
         max-width: 24vw;
@@ -1066,7 +1073,7 @@ legend {
         height: auto;
         align-self: center;
     }
-    
+
 
     #slide {
         position: absolute;
@@ -1075,7 +1082,7 @@ legend {
     }
 
     input:checked~#slide {
-        transform: translateX(185px);
+        transform: translateX(17px);
     }
 
     .toggle {
@@ -1090,6 +1097,26 @@ legend {
         height: 5px;
         width: 46px;
     }
+    /*footer*/
+    .footer-container h4 {
+        font-size: 2.2vw;
+    }
+
+    .barnsley-council ul li {
+        align-self: center;
+        font-size: 2vw;
+    }
+
+    .copyright p {
+        font-size: 2vw;
+    }
+
+
+    #slide h2 {
+        padding: 20px 0 0 244px;
+        top: -22%;
+        left: 28%;
+    }
 }
 
 @media (min-width: 1500px) {
@@ -1102,22 +1129,24 @@ legend {
 @media (min-width: 2140px) {
     input:checked~#slide {
         transform: translateX(315px);
-}
-#slide {
-    position: absolute;
-    width: 459px;
-    height: 316px;
-    top: 147%;
-    left: -16%;
-}
+    }
 
-#slide h2 {
-    padding: 20px 0 0 125px;
-}
-#dropdown {
-    position: relative;
-    left: -78px;
-}
+    #slide {
+        position: absolute;
+        width: 459px;
+        height: 316px;
+        top: 147%;
+        left: -16%;
+    }
+
+    #slide h2 {
+        padding: 20px 0 0 125px;
+    }
+
+    #dropdown {
+        position: relative;
+        left: -78px;
+    }
 }
 
 @media (min-width: 2204px) {
@@ -1127,9 +1156,24 @@ legend {
         margin: 45px -36px;
     }
 }
+
 @media (min-width: 2560px) {
     #bbblogo {
         left: 80%;
+    }
+
+    /*footer*/
+    .footer-container h4 {
+        font-size: 2.2vw;
+    }
+
+    .barnsley-council ul li {
+        align-self: center;
+        font-size: 2vw;
+    }
+
+    .copyright p {
+        font-size: 2vw;
     }
 
     #slide {
@@ -1141,14 +1185,14 @@ legend {
         top: -3%;
         left: 55%;
     }
-
+    /*past-projects*/
     .past-projects-photos {
         height: 871px;
         width: auto;
         padding-left: 0;
         padding-top: 16px;
     }
-
+    /*menu burger*/
     .toggle {
         position: absolute;
         height: 100px;
@@ -1170,6 +1214,7 @@ legend {
         border-radius: 50px;
         transition: 0.3s ease;
     }
+
     #slide {
         position: absolute;
         width: 600px;
@@ -1177,4 +1222,52 @@ legend {
         top: 147%;
         left: -16%;
     }
+
+    /*contact page */
+
+    #contact-us {
+        height: 88vh;
+    }
+
+.contact-box {
+    left: -6%;
+    width: 802px;
+    height: 79%;
+    top: 53%;
+}
+
+    input::placeholder {
+        font-size: 1.3vw;
+    }
+
+    .contact-box input {
+        height: 67.2px;
+        width: 720px;
+    }
+
+    textarea::placeholder {
+        font-size: 1.3vw;
+    }
+    .choice input {
+        height: 26.2px;
+        width: 97px;
+    }
+
+    #message {
+        width: 720px;
+    }
+
+    fieldset legend {
+        font-size: 1.3vw;
+    }
+    .contact-box label {
+        font-size: 1.3vw;
+    }
+
+    .contact-box form button {
+        width: 706px;
+    }
+
+    .contact-box form button {
+       font-size: 1.3vw;
 }
