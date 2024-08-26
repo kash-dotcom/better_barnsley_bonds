@@ -341,8 +341,8 @@ h4 {
 }
 
 #click-me {
-    margin-bottom: 41px;
-    margin-top: 25px;
+    margin-bottom: 7px;
+    margin-top: 1px;
 }
 
 .text {
@@ -498,7 +498,7 @@ element.style {
 }
 
 .past-projects ul li img {
-    max-height: 100%;
+    max-height: 132%;
     min-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
@@ -519,42 +519,61 @@ element.style {
 /* To create a line between the header and the heading*/
 
 #header-break {
-    padding: 5px 0 0 50px;
+    padding: 5px 0 0 18px;
     border-top-color: whitesmoke;
     border-top-style: inset;
 }
 
 /*break between paragraph and gallery */
 #introduction {
-    padding: 0px 50px 21px 50px;
+    padding: 0px 50px 21px 18px;
 }
 
 /*Quotation & context */
 
 
 /*break-point - table*/
+
 .text-wrap {
     display: flex;
-    width: 303px;
-    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
     background-color: #222222;
-    word-break: normalh2;
-    margin: 42px 0 43px 14px;
-    padding-block: 13px;
+    word-break: normal;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
     text-align: center;
     text-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    font-size: medium;
+    justify-content: center;
+}
+    background-color: #222222;
+    word-break: normal;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: center;
+    text-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: medium;
+    justify-content: center;
 }
 
 .projects-span {
     background-color: #222222;
+    margin-left: -99px;
+    margin-top: 45px;
+    padding: 12px;
 }
 
 .text-wrap-btn {
     display: flex;
-    width: 303px;
-    height: 100px;
+    width: 97%;
+    height: 100%;
     background-color: #222222;
     word-break: break-all;
     margin: -26px -22px 0px -13px;
@@ -749,7 +768,14 @@ legend {
         height: 44%;
     }
 }
-
+/*
+@media (min-width:544px) {
+    .text-wrap {
+        width: 330px;
+        word-break: normal;
+        margin: 44px -36px;
+    }*/
+}
 @media (min-width:620px) {
     /*About-us page*/
 
@@ -992,12 +1018,21 @@ legend {
     }
 
     /* Past Projects photos*/
+
+    .text-wrap-btn {
+        margin: -26px -22px 15px -13px;
+    }
     .past-projects-photos {
         height: 401px;
         width: auto;
         padding-left: 0;
         padding-top: 16px;
     }
+}
+@media (min-width: 1100px) {
+.text-wrap-btn {
+    margin: -26px -22px 40px -13px;
+}
 }
 
 @media (min-width: 1200px) {
@@ -1009,8 +1044,16 @@ legend {
     #slide ul li a {
         font-size: 2.2vw;
     }
+    .text-wrap-btn {
+        margin: -26px -22px 52px -13px;
+    }
 }
 
+@media (min-width: 1300px) {
+.text-wrap-btn {
+    margin: -26px -22px 61px -13px;
+}
+}
 @media (min-width: 1440px) {
     #bbblogo {
         left: 59%;
