@@ -670,21 +670,11 @@ legend {
     }
 }
 
-@media (min-height:320px) {
-#contact-us {
-    height: 112vh;
-}
-
-}
 /*Mobile L - 412px*/
 @media screen and (min-width: 412px) {
     .contact-box {
         left: 46%;
         width: 357px;
-    }
-
-    #contact-us {
-        height: 83vh;
     }
 
     /*Controls the input boxes of the form*/
