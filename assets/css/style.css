@@ -92,15 +92,14 @@ header {
 
 /*Menu header*/
 #slide h2 {
-    color: whitesmoke;
+    color: #ffb812;
     display: inline-flex;
     align-items: center;
     position: fixed;
-    top: 13%;
-    left: 43%;
+    top: 33%;
+    left: 54%;
     font-weight: 700;
     text-align: left;
-    padding: 20px 0 0 60px;
     pointer-events: none;
     padding-bottom: 27px;
     transform: rotate(90deg);
@@ -740,15 +739,14 @@ legend {
 
 }
 
-
-
 @media (min-height:320px) {
 
     #contact-us{
         height: 81vh;
     }
     #bbblogo {
-        left: 80%;
+        left: 58%;
+        height: 44%;
     }
 }
 
@@ -927,7 +925,7 @@ legend {
 
         width: 244px;
         top: 97%;
-        left: 0%;
+        left: -2%;
         transform: translateX(-257px);
         height: 198px;
 
@@ -1033,8 +1031,8 @@ legend {
 
     #slide {
         position: absolute;
-        width: 271px;;
-        height: 299px;
+        width: 271px;
+        height: 209px;
     }
 
     input:checked~#slide {

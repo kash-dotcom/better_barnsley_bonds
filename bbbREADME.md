@@ -34,6 +34,9 @@ The website in its current form aims to improve the quality of applications and 
 
 * **User Experience** – The website should enhance UX by having all other content fade when the menu is selected.
 
+
+* **Navigation** – The website should support navigation around the site by underlining the page in the menu.
+
 * **Application support** – The website should have a whole page dedicated to getting help with applications, funding and project idea development.
 
 * **Legal** – The website should have a GDPR pop-up.
