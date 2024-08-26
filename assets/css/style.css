@@ -200,28 +200,32 @@ main {
 /* ---------------------------------------FOOTER-----------------------------------*/
 /** Footer Logos */
 
+/*contains all elements within the footer*/
 .footer-container {
     display: flex;
     flex-direction: column;
     background-color: #222222;
 }
 
+/*Find out more heading*/
 h4 {
     align-self: center;
     padding-bottom: 1%;
 }
 
+/* Unordered list for social media logos*/
+.legal {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*legal*/
 .barnsley-council ul li {
     align-self: center;
     font-size: small;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: center;
-    padding: 10px
-}
-
+/*Container to links the Council's Website*/
 .barnsley-council {
     display: flex;
     flex-direction: column;
@@ -234,28 +238,7 @@ h4 {
 
 }
 
-.legal {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.footer-logos {
-    width: 100%;
-    max-height: 6%;
-    display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    order: 5;
-}
-
-.footer-content p {
-    text-align: center;
-    display: inline;
-    display: flex;
-}
-
+/*unordered list socials container*/
 .socials {
     color: whitesmoke;
     text-decoration: none;
@@ -264,27 +247,25 @@ h4 {
     text-wrap: wrap;
     height: 100%;
     width: 100%;
-
 }
 
+/* padding between social media logos*/
 .socials li {
     padding: 10px;
-    list-style-type: none;
+    
 }
-
+/* copyright - container */
 .copyright {
     display: flex;
     background-color: #222222;
 }
 
+/* Copyright info*/
 .copyright p {
+    text-align: center;
+    display: inline;
     align-self: center;
     font-size: small;
-}
-
-
-.footer-content-barnsley-council a h2 ul {
-    align-items: start;
 }
 
 /* ---------------------------------------ABOUT US-----------------------------------*/
@@ -342,8 +323,8 @@ h4 {
 }
 
 #click-me {
-    margin-bottom: 7px;
-    margin-top: 1px;
+    margin-bottom: 46px;
+    margin-top: 16px;
 }
 
 .text {
@@ -544,18 +525,6 @@ element.style {
     justify-content: center;
 }
 
-background-color: #222222;
-word-break: normal;
-margin-top: 0px;
-margin-left: 0px;
-padding: 0px;
-text-align: center;
-text-wrap: wrap;
-flex-direction: column;
-align-items: center;
-font-size: medium;
-justify-content: center;
-}
 
 .projects-span {
     background-color: #222222;
@@ -1270,4 +1239,5 @@ legend {
 
     .contact-box form button {
        font-size: 1.3vw;
+}
 }
