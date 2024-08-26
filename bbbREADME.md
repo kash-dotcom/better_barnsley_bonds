@@ -30,14 +30,20 @@ The website in its current form aims to improve the quality of applications and 
 ## Features left to develop
 * **Login** – To ensure applications are of a good quality, the website should have the ability to log in, save and alter applications, as well as track, upload monitoring and other evidence. Also, it should have helpful hints about Barnsley’s ambitions and what applicants could include to bolster their request for funding.
 
+### Content enhancement
 * **Past Projects** – The website should have links to the Facebook pages of the groups with more testimonies from community groups and the residents they have helped, including case studies and interviews that demonstrate the impact of the fund.
 
-* **User Experience** – The website should enhance UX by having all other content fade when the menu is selected.
-
-
-* **Navigation** – The website should support navigation around the site by underlining the page in the menu.
-
 * **Application support** – The website should have a whole page dedicated to getting help with applications, funding and project idea development.
+
+### User Experience
+* The website should enhance UX by having all other content fade when the menu is selected.
+
+### Navigation
+* The website should support navigation around the site by underlining the page in the menu.
+
+* Enhancing the slide menu can be achieved by subdividing the About Us page into sections.
+
+* Tests with the demographic show that a pop-up message or simply using the word "menu" aids navigation better. While the burger menu is familiar to frequent users, it may not be clear for older users.
 
 * **Legal** – The website should have a GDPR pop-up.
 
@@ -87,6 +93,9 @@ The CSS code passed validation using the W3C CSS Validator and no errors were fo
 * Two different monitors were used (1220x570px) and (1137x674px)
 * Google Pixel 7
 * Dev Tools was used frequently during the development of the site
+
+Two individuals from the target audience were monitored as they used the website, freely exploring it without any guidance. They liked the colours and design. 
+
 
 Code
 W3school an MDN Web Docs

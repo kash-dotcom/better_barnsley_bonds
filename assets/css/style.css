@@ -309,6 +309,13 @@ h4 {
 
 }
 
+.about-us p {
+    background-color: whitesmoke;
+    color: #222222;
+    padding: 31px;
+    padding: 0 31px 20px 50px;
+}
+
 /* All links on the about us page*/
 .about-us-links {
 
@@ -861,12 +868,10 @@ legend {
     }
 }
 
-
-
 /*Laptop - 1024px*/
 @media (min-width: 1024px) {
     #contact-us {
-        height: 132vh;
+        height: 147vh;
     }
 
     /*contact page - location of form*/
