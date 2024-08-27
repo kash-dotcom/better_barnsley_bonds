@@ -6,10 +6,6 @@ The Barnsley Better Bond is a fund that supports community projects that align w
 
 [Visit Barnsley Better Bond live project](https://kash-dotcom.github.io/better_barnsley_bonds/)
 
-## Table of Conents
-Features
-About us
-
 # Features
 The website in its current form aims to improve the quality of applications and discourage those who are not eligible from applying.
  
@@ -23,7 +19,7 @@ The website in its current form aims to improve the quality of applications and 
 
 ![ !\[About Us  page\](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724745050/about-us_buinyn.png)](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724746699/about-us-top_jn2u7t.png)
 
-## Menu ##
+## Menu
 
 * **Site Navigation** - Users can access different parts of the site in various ways. One way is to use the navigation menu, which you can open by clicking on the burger menu icon or the logo. The logo also changes the cursor to a hand when you hover over it, indicating that it is clickable.
 
@@ -33,7 +29,7 @@ The website in its current form aims to improve the quality of applications and 
 
 
 
-## What are we looking for?
+### What are we looking for?
 
 * This section provides the user with information about what kind of applications can be submitted.
 
@@ -43,18 +39,18 @@ The website in its current form aims to improve the quality of applications and 
 
 ![Looking for](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724746370/looking-for_iyxxir.png)
 
-## Meet the Panel
+### Meet the Panel
 * A short bio, logos, and links to all organisations on the panel. This helps users understand the mission statements, goals, and vision to tailor their applications accordingly.
 
 * This is positioned here to support those revisiting the site.
 
 ![Meet the panel](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724746380/meet-the-panel_mnecht.png)
 
-## Who can apply
+### Who can apply
 * A list of groups who can apply but also a link to the contact page.
 ![alt text](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724749233/who-can-apply_pmsosx.png)
 
-## Who isn't eligible
+### Who isn't eligible
 * Those who are not eligible are given a link to follow for funding and support for the *For-Profit sector*
 
 ![Business support](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724746341/eligible_pxue7m.png)
@@ -64,7 +60,7 @@ The website in its current form aims to improve the quality of applications and 
 
 ![Furter Navigation Features - clickable anchor](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724739062/Next_page_dibqgf.jpg)
 
-## Other features
+### Other features
 * **Language** – It clearly states what we are looking for and who should apply. It is there to inspire and encourage the community to come together and help shape the future of the borough. 
 
 * **Font size** – When opened on a laptop, the font size increases to accommodate those with poor vision.
@@ -110,7 +106,8 @@ The website in its current form aims to improve the quality of applications and 
 
 # User Experience
 The website is aimed at community groups and organisations who would be familiar with the website but struggle to navigate it due to the amount of content. 
-### Target Audience
+
+## Target Audience
 * If a smartphone is used, it will often be smaller versions, as they will view it as a device to make calls, not browse the internet.
 * The majority of group leaders are retired.
 * They will focus on human interaction, preferably face-to-face, but they will be  okay with calling.
@@ -141,20 +138,20 @@ Help the applicants understand:
 
 # Design
 
-### Colour Palette
+## Colour Palette
 * The website uses the same colors and design as the main website to denote its connection. The majority of the design black and white. Using the gold in the logo and the purple as accents. 
 
 ![Colour Palette - black, white, gold and purple][Colour Palette]
 
 [Colour Palette]: https://res.cloudinary.com/ddqlomb2x/image/upload/v1723929309/bbb_colour_palette_qtugvw.png
 
-### Typography
+## Typography
 The font is Opens Sans, which is a widely accessible font for users and browsers. The fallback font is sans-serif.
 
-### Wireframes
-Draw.io was used to create a wireframe for the first page, along with a mock-up website designed in Canva.
+## Wireframes
+Draw.io was used to create a wireframe for the first page, along with a mock-up website designed in Canva. [Wireframe](bbb.drawio)
 
-## Technologies Used
+# Technologies Used
 * HTML5
 * CSS3
 * Canva
@@ -170,11 +167,7 @@ Draw.io was used to create a wireframe for the first page, along with a mock-up 
 * **Cloudinary** to facilitate mockup images included in the 
 * **Fonts Awesome** for social media logos
 
-## Known Bugs
-
-* Google Fonts and Font Awesome are used in this project. Both of these use third-party cookies, which lowers the best practice lighthouse score.
-
-## Validation
+# Validation
 
 The CSS code passed validation using the W3C CSS Validator and no errors were found.
 
@@ -208,10 +201,26 @@ The CSS code passed validation using the W3C CSS Validator and no errors were fo
 ### User focus group
 * Two individuals from the target audience were monitored as they used the website, freely exploring it without any guidance. They liked the colours and design. 
 
+## Known Bugs
+
+* Google Fonts and Font Awesome are used in this project. Both of these use third-party cookies, which lowers the best practice lighthouse score.
+
+* On certain mobile devices, the contact form's layout shifts below the header when the device is in landscape mode. This issue does not occur on laptops or within Dev Tools.
+
+# Deployment 
+Lock into GibHub and locate the [repository for Better Barnsley Bond](https://github.com/kash-dotcom/better_barnsley_bonds).
+
+1. Along the navigation bar locate settings
+2. Scroll down the page and on the left-hand side navigation bar you will find *Page*
+3. Under the Build and Deployment you will find "Source" and a drop-down menu None" select "Main" and click "Save".
+4. The page will automatically refresh.
+5. Scroll back to locate the now-published site link in the "GitHub Pages" section.
+
+# Credits and Acknowledgements 
 ## Code
 * [W3school](https://www.w3schools.com/) and [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
-    #### You Tube Tutorials
+**You Tube Tutorials**
 * [Sidebar Navigation](https://www.youtube.com/watch?v=1TZjgQ0Osic) - The code was adapted as it failed html validation
 * [Transparent login form](https://www.youtube.com/watch?v=ylFLVBbB9AM&list=PL5e68lK9hEzdYrWwmteutbLs_-oNZieFL&index=3)
 
@@ -229,6 +238,8 @@ To protect the identity until additional permissions are sought stock photos hav
 * [freepik](https://www.freepik.com/)
 
 ## Acknowledgements
-The fabulous community groups in Barnsley who inspired the creation of the website. 
+* The fabulous community groups in Barnsley who inspired the creation of the website. 
 
+* The README of Thomas-Tomo helped to structure this file [README file](https://github.com/Thomas-Tomo/Lunar-Escape/blob/main/README.md)
+ 
 
