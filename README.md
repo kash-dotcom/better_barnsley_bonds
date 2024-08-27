@@ -1,131 +1,234 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Barnsley Better Bond
+The Barnsley Better Bond is a fund that supports community projects that align with the Better Barnsley Project, a vision to transform Barnsley as a place of opportunities. The fund is established from the contributions made by providers contracted by the council to perform works or services. The Barnsley Better Bond website is a new platform that provides information and guidance on how to apply for the fund, as well as links to the Barnsley 2030 ambitions that outline the council's priorities and goals.
 
-Welcome kash-dotcom ,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![(https://res.cloudinary.com/ddqlomb2x/image/upload/v1724576874/mockup_cfi2ir.png)](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724576874/mockup_cfi2ir.png)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+[Visit Barnsley Better Bond live project](https://kash-dotcom.github.io/better_barnsley_bonds/)
 
-## Gitpod Reminders
+## Table of Conents
+Features
+About us
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Features
+The website in its current form aims to improve the quality of applications and discourage those who are not eligible from applying.
+ 
+ ## About us
 
-`python3 -m http.server`
+ * **Context** The webpage is a part of a broader website, featuring new elements to enhance navigation.
 
-A blue button should appear to click: _Make Public_,
+ * **Video** – The video sets the scene where people can quickly understand the history of the town and why the fund exists.
 
-Another blue button should appear to click: _Open Browser_.
+ * **Other local authorities** - This section also also speaks to other local authorities who may wish to operate in a similiar way.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+![ !\[About Us  page\](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724745050/about-us_buinyn.png)](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724746699/about-us-top_jn2u7t.png)
 
-A blue button should appear to click: _Make Public_,
+## Menu ##
 
-Another blue button should appear to click: _Open Browser_.
+* **Site Navigation** - Users can access different parts of the site in various ways. One way is to use the navigation menu, which you can open by clicking on the burger menu icon or the logo. The logo also changes the cursor to a hand when you hover over it, indicating that it is clickable.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* The navigation bar highlights the selected page when the user hovers over it.
 
-To log into the Heroku toolbelt CLI:
+![alt text](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724736854/menu-highlight_bbnnw0.jpg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
 
-### Connecting your Mongo database
+## What are we looking for?
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+* This section provides the user with information about what kind of applications can be submitted.
 
-------
+* It is near the top of the page to support users who are revisiting the site to help them complete their application form.
 
-## Release History
+* Additionally, there is a link to the main website that details the 2030 Ambitions, which users should consider aligning their applications with.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Looking for](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724746370/looking-for_iyxxir.png)
 
-**June 18, 2024,** Add Mongo back into template
+## Meet the Panel
+* A short bio, logos, and links to all organisations on the panel. This helps users understand the mission statements, goals, and vision to tailor their applications accordingly.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+* This is positioned here to support those revisiting the site.
 
-**May 28 2024:** Fix Mongo and Links installs
+![Meet the panel](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724746380/meet-the-panel_mnecht.png)
 
-**April 26 2024:** Update node version to 16
+## Who can apply
+* A list of groups who can apply but also a link to the contact page.
+![alt text](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724749233/who-can-apply_pmsosx.png)
 
-**September 20 2023:** Update Python version to 3.9.17.
+## Who isn't eligible
+* Those who are not eligible are given a link to follow for funding and support for the *For-Profit sector*
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Business support](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724746341/eligible_pxue7m.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Furter Navigation Features
+*Another way is to follow the link at the bottom of the page that says "next page". This will take you to the next section of the site.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Furter Navigation Features - clickable anchor](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724739062/Next_page_dibqgf.jpg)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Other features
+* **Language** – It clearly states what we are looking for and who should apply. It is there to inspire and encourage the community to come together and help shape the future of the borough. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* **Font size** – When opened on a laptop, the font size increases to accommodate those with poor vision.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* **Information** – There are many links to different policies, the council’s ambitions, organisations that are on the panel and where to get support if applicants are not eligible.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* **Images** - supporting images on the about page are representation of previous projects, like tree planting, and events. As well as image of Enterpising Barnsley's Media Centre.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Gallery of previous projects
+* The gallery is there to inspire and help those who are interested in applying to get an idea what the panel has previously supported. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![alt text](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724745511/gallery-screenshoot_wvycqy.jpg)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Contact Form
+* **Reduce user errors** The form will only be submitted if the phone number has at least 11 characters.
+![screenshot of the form being submitted and a error message](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724736847/phone_min_limit_a8nzna.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Features left to develop
+* **Login** – To ensure applications are of a good quality, the website should have the ability to log in, save and alter applications, as well as track, upload monitoring and other evidence. Also, it should have helpful hints about Barnsley’s ambitions and what applicants could include to bolster their request for funding.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Content enhancement
+* **Past Projects** – The website should have links to the Facebook pages of the groups with more testimonies from community groups and the residents they have helped, including case studies and interviews that demonstrate the impact of the fund.
 
-------
+* **Application support** – The website should have a whole page dedicated to getting help with applications, funding and project idea development.
 
-## FAQ about the uptime script
+### User Experience
+* The website should enhance UX by having all other content fade when the menu is selected.
 
-**Why have you added this script?**
+* Social media integration with Facebook 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* *Meet the Funders* events will be advertised on the site where people can get support with funding applications, the creation of projects, and developing business cases.
 
-**How will this affect me?**
+### Navigation
+* The website should support navigation around the site by underlining the page in the menu.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* Enhancing the slide menu can be achieved by subdividing the About Us page into sections.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* Tests with the demographic show that a pop-up message or simply using the word "menu" aids navigation better. While the burger menu is familiar to frequent users, it may not be clear for older users.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* **Legal** – The website should have a GDPR pop-up.
 
-**So….?**
+# User Experience
+The website is aimed at community groups and organisations who would be familiar with the website but struggle to navigate it due to the amount of content. 
+### Target Audience
+* If a smartphone is used, it will often be smaller versions, as they will view it as a device to make calls, not browse the internet.
+* The majority of group leaders are retired.
+* They will focus on human interaction, preferably face-to-face, but they will be  okay with calling.
+* Not everyone will have email address.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## User Stories
+* Users will use the website to understand what the fund is, who can apply for it and how to get in touch with the Council.
+* They will have multiple ways to navigate through the site through buttons at the bottom of the page and or the sticky navigation.
+The logo also activates the menu
 
-**Can I opt out?**
+### First Time
+To use the website as a resource and springboard to help facilitate better quality applications form
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Help the applicants understand: 
+* Overview of the fund and why was it created.
+* Who is eligible to apply and those who are discouraged from completing an application?
+* Who are the panel so applicants can begin to tailor the application to the panel.
+* What projects have been previously approved?
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Returning visitors
+* To use the website to support the creation of their applications
 
-**Anything more?**
+### Frequent user goals
+* Continue to use the website to links to other useful resource, for  example:
+    - Other funding support
+    - Business development
+    - Staff development
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Design
 
----
+### Colour Palette
+* The website uses the same colors and design as the main website to denote its connection. The majority of the design black and white. Using the gold in the logo and the purple as accents. 
 
-Happy coding!
+![Colour Palette - black, white, gold and purple][Colour Palette]
+
+[Colour Palette]: https://res.cloudinary.com/ddqlomb2x/image/upload/v1723929309/bbb_colour_palette_qtugvw.png
+
+### Typography
+The font is Opens Sans, which is a widely accessible font for users and browsers. The fallback font is sans-serif.
+
+### Wireframes
+Draw.io was used to create a wireframe for the first page, along with a mock-up website designed in Canva.
+
+## Technologies Used
+* HTML5
+* CSS3
+* Canva
+* Dall-E
+* Gemmi 
+
+## Frameworks, libraries & programs used
+
+* **Gitpod** - To facilitate the writing of code
+* **Git** – to support version control
+* **Github** to deploy the website
+* **Google Fonts** – supply the fonts for the whole site 
+* **Cloudinary** to facilitate mockup images included in the 
+* **Fonts Awesome** for social media logos
+
+## Known Bugs
+
+* Google Fonts and Font Awesome are used in this project. Both of these use third-party cookies, which lowers the best practice lighthouse score.
+
+## Validation
+
+The CSS code passed validation using the W3C CSS Validator and no errors were found.
+
+![!\[!\[alt text\](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724359190/vcss-blue_ccudi5.png)\]](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724359190/vcss-blue_ccudi5.png)
+
+![alt text](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724359190/vcss_xqav6s.png)
+
+## Lighthouse Reports
+### Mobile analysis
+
+* [About Us Page](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724751057/about_us_mobile_ay2pmq.jpg)
+
+* [Past Projects Page](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724751065/past_projects_mobile_tau8ye.jpg)
+
+* [Contact Us Page](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724751061/contact_us_mobile_akzpdl.jpg)
+
+### Desktop analysis
+
+* [About Us Page](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724751055/about_us_desktop_Page_1_fmj6rf.jpg)
+
+* [Past Projects page](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724751063/past_projects_desktop_xvn13w.jpg)
+
+* [Contact Us Page](https://res.cloudinary.com/ddqlomb2x/image/upload/v1724751060/contact_us_desktop_lknpkl.jpg)
+
+## Testing 
+### Manual Testing
+* Two different monitors were used (1220x570px) and (1137x674px)
+* Google Pixel 7
+* Dev Tools was used frequently during the development of the site
+
+### User focus group
+* Two individuals from the target audience were monitored as they used the website, freely exploring it without any guidance. They liked the colours and design. 
+
+## Code
+* [W3school](https://www.w3schools.com/) and [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+    #### You Tube Tutorials
+* [Sidebar Navigation](https://www.youtube.com/watch?v=1TZjgQ0Osic) - The code was adapted as it failed html validation
+* [Transparent login form](https://www.youtube.com/watch?v=ylFLVBbB9AM&list=PL5e68lK9hEzdYrWwmteutbLs_-oNZieFL&index=3)
+
+* Code Institutes lessons
+* Stackoverflow and Slack Community 
+
+## Content
+* **Barnsley Better Bond’s application and 2023-24 impact report** were used as source material.
+* **Chat GPT & Copilot** were used for proofreading and grammatical rewrites.
+* **Dall-E** was used to extend the image of the hands on the contact page to ensure there was a good contrast between the form and the image. 
+* **Gemmi** was used to aid problem-solving and learning the capabilities and limitations of CSS3 and HTML5.  
+### Photography
+To protect the identity until additional permissions are sought stock photos have been used. The projects highlight throughout the wesbite are already freely in the public domain, however, some have been changed to protect people's identity.
+* [Lummi](https://www.lummi.ai)
+* [freepik](https://www.freepik.com/)
+
+## Acknowledgements
+The fabulous community groups in Barnsley who inspired the creation of the website. 
+
+
